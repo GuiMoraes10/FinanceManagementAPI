@@ -9,8 +9,14 @@ namespace FinanceManagementApp
         {
             InitializeComponent();
 
+            mainButtons = [DashboardBtn, TransactionsBtn, ScheduledTransactionsBtn, InvestmentsBtn, ProjectionsBtn, SettingsBtn];
+
             OpenFormInPanel(new HomeForm("Guilherme"));
         }
+
+        private Form? _currentForm;
+        private List<Button> mainButtons;
+        public bool LogoutRequested { get; private set; }
 
         [DllImport("user32.dll")]
         private static extern bool ReleaseCapture();
@@ -21,10 +27,17 @@ namespace FinanceManagementApp
             int Msg,
             int wParam,
             int lParam);
+
         private const int WM_NCLBUTTONDOWN = 0xA1;
         private const int HTCAPTION = 0x2;
 
-        private Form? _currentForm;
+        private void SetDefaultButtonsCollor()
+        {
+            foreach (Button button in mainButtons)
+            {
+                button.BackColor = Color.FromArgb(45, 45, 45);
+            }
+        }
 
         private void OpenFormInPanel(Form childForm)
         {
@@ -65,6 +78,55 @@ namespace FinanceManagementApp
         private void SwPicturePb_Click(object sender, EventArgs e)
         {
             OpenFormInPanel(new HomeForm("Guilherme"));
+            SetDefaultButtonsCollor();
+        }
+
+        private void DashboardBtn_Click(object sender, EventArgs e)
+        {
+            OpenFormInPanel(new Dashboard());
+            SetDefaultButtonsCollor();
+            DashboardBtn.BackColor = Color.FromArgb(60, 60, 60);
+        }
+
+        private void TransactionsBtn_Click(object sender, EventArgs e)
+        {
+            OpenFormInPanel(new Transactions());
+            SetDefaultButtonsCollor();
+            TransactionsBtn.BackColor = Color.FromArgb(60, 60, 60);
+        }
+
+        private void ScheduledTransactionsBtn_Click(object sender, EventArgs e)
+        {
+            OpenFormInPanel(new ScheduledTransactions());
+            SetDefaultButtonsCollor();
+            ScheduledTransactionsBtn.BackColor = Color.FromArgb(60, 60, 60);
+        }
+
+        private void InvestmentsBtn_Click(object sender, EventArgs e)
+        {
+            OpenFormInPanel(new Investments());
+            SetDefaultButtonsCollor();
+            InvestmentsBtn.BackColor = Color.FromArgb(60, 60, 60);
+        }
+
+        private void ProjectionsBtn_Click(object sender, EventArgs e)
+        {
+            OpenFormInPanel(new FinancialProjection());
+            SetDefaultButtonsCollor();
+            ProjectionsBtn.BackColor = Color.FromArgb(60, 60, 60);
+        }
+
+        private void SettingsBtn_Click(object sender, EventArgs e)
+        {
+            OpenFormInPanel(new Settings());
+            SetDefaultButtonsCollor();
+            SettingsBtn.BackColor = Color.FromArgb(60, 60, 60);
+        }
+
+        private void UserPb_Click(object sender, EventArgs e)
+        {
+            LogoutRequested = true;
+            Close();
         }
     }
 }

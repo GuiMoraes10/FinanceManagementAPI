@@ -35,7 +35,7 @@
             SettingsBtn = new Button();
             ProjectionsBtn = new Button();
             InvestmentsBtn = new Button();
-            CallendarBtn = new Button();
+            ScheduledTransactionsBtn = new Button();
             TransactionsBtn = new Button();
             DashboardBtn = new Button();
             TitleLabel = new Label();
@@ -60,7 +60,7 @@
             panel1.Controls.Add(SettingsBtn);
             panel1.Controls.Add(ProjectionsBtn);
             panel1.Controls.Add(InvestmentsBtn);
-            panel1.Controls.Add(CallendarBtn);
+            panel1.Controls.Add(ScheduledTransactionsBtn);
             panel1.Controls.Add(TransactionsBtn);
             panel1.Controls.Add(DashboardBtn);
             panel1.Controls.Add(TitleLabel);
@@ -76,7 +76,7 @@
             UsernameLabel.AutoSize = true;
             UsernameLabel.Font = new Font("Bahnschrift SemiCondensed", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             UsernameLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            UsernameLabel.Location = new Point(105, 524);
+            UsernameLabel.Location = new Point(92, 524);
             UsernameLabel.Name = "UsernameLabel";
             UsernameLabel.Size = new Size(74, 19);
             UsernameLabel.TabIndex = 11;
@@ -84,13 +84,15 @@
             // 
             // UserPb
             // 
+            UserPb.Cursor = Cursors.Hand;
             UserPb.Image = (Image)resources.GetObject("UserPb.Image");
-            UserPb.Location = new Point(3, 503);
+            UserPb.Location = new Point(11, 509);
             UserPb.Name = "UserPb";
-            UserPb.Size = new Size(75, 65);
-            UserPb.SizeMode = PictureBoxSizeMode.CenterImage;
+            UserPb.Size = new Size(57, 57);
+            UserPb.SizeMode = PictureBoxSizeMode.Zoom;
             UserPb.TabIndex = 2;
             UserPb.TabStop = false;
+            UserPb.Click += UserPb_Click;
             // 
             // SettingsBtn
             // 
@@ -110,6 +112,7 @@
             SettingsBtn.TabIndex = 10;
             SettingsBtn.Text = "           Configurações";
             SettingsBtn.UseVisualStyleBackColor = false;
+            SettingsBtn.Click += SettingsBtn_Click;
             // 
             // ProjectionsBtn
             // 
@@ -129,6 +132,7 @@
             ProjectionsBtn.TabIndex = 9;
             ProjectionsBtn.Text = "        Projeções";
             ProjectionsBtn.UseVisualStyleBackColor = false;
+            ProjectionsBtn.Click += ProjectionsBtn_Click;
             // 
             // InvestmentsBtn
             // 
@@ -148,25 +152,27 @@
             InvestmentsBtn.TabIndex = 8;
             InvestmentsBtn.Text = "          Investimentos";
             InvestmentsBtn.UseVisualStyleBackColor = false;
+            InvestmentsBtn.Click += InvestmentsBtn_Click;
             // 
-            // CallendarBtn
+            // ScheduledTransactionsBtn
             // 
-            CallendarBtn.BackColor = Color.FromArgb(45, 45, 45);
-            CallendarBtn.Cursor = Cursors.Hand;
-            CallendarBtn.FlatAppearance.BorderColor = Color.FromArgb(63, 63, 70);
-            CallendarBtn.FlatAppearance.MouseDownBackColor = Color.FromArgb(55, 55, 58);
-            CallendarBtn.FlatAppearance.MouseOverBackColor = Color.FromArgb(70, 70, 74);
-            CallendarBtn.FlatStyle = FlatStyle.Flat;
-            CallendarBtn.Font = new Font("Bahnschrift", 12F);
-            CallendarBtn.ForeColor = Color.FromArgb(184, 184, 184);
-            CallendarBtn.Image = (Image)resources.GetObject("CallendarBtn.Image");
-            CallendarBtn.ImageAlign = ContentAlignment.MiddleLeft;
-            CallendarBtn.Location = new Point(0, 219);
-            CallendarBtn.Name = "CallendarBtn";
-            CallendarBtn.Size = new Size(209, 52);
-            CallendarBtn.TabIndex = 7;
-            CallendarBtn.Text = "          Agendamentos";
-            CallendarBtn.UseVisualStyleBackColor = false;
+            ScheduledTransactionsBtn.BackColor = Color.FromArgb(45, 45, 45);
+            ScheduledTransactionsBtn.Cursor = Cursors.Hand;
+            ScheduledTransactionsBtn.FlatAppearance.BorderColor = Color.FromArgb(63, 63, 70);
+            ScheduledTransactionsBtn.FlatAppearance.MouseDownBackColor = Color.FromArgb(55, 55, 58);
+            ScheduledTransactionsBtn.FlatAppearance.MouseOverBackColor = Color.FromArgb(70, 70, 74);
+            ScheduledTransactionsBtn.FlatStyle = FlatStyle.Flat;
+            ScheduledTransactionsBtn.Font = new Font("Bahnschrift", 12F);
+            ScheduledTransactionsBtn.ForeColor = Color.FromArgb(184, 184, 184);
+            ScheduledTransactionsBtn.Image = (Image)resources.GetObject("ScheduledTransactionsBtn.Image");
+            ScheduledTransactionsBtn.ImageAlign = ContentAlignment.MiddleLeft;
+            ScheduledTransactionsBtn.Location = new Point(0, 219);
+            ScheduledTransactionsBtn.Name = "ScheduledTransactionsBtn";
+            ScheduledTransactionsBtn.Size = new Size(209, 52);
+            ScheduledTransactionsBtn.TabIndex = 7;
+            ScheduledTransactionsBtn.Text = "          Agendamentos";
+            ScheduledTransactionsBtn.UseVisualStyleBackColor = false;
+            ScheduledTransactionsBtn.Click += ScheduledTransactionsBtn_Click;
             // 
             // TransactionsBtn
             // 
@@ -186,6 +192,7 @@
             TransactionsBtn.TabIndex = 6;
             TransactionsBtn.Text = "         Transações";
             TransactionsBtn.UseVisualStyleBackColor = false;
+            TransactionsBtn.Click += TransactionsBtn_Click;
             // 
             // DashboardBtn
             // 
@@ -205,6 +212,7 @@
             DashboardBtn.TabIndex = 2;
             DashboardBtn.Text = "          Dashboard";
             DashboardBtn.UseVisualStyleBackColor = false;
+            DashboardBtn.Click += DashboardBtn_Click;
             // 
             // TitleLabel
             // 
@@ -271,6 +279,7 @@
             MaximizeBtn.BackColor = Color.FromArgb(45, 45, 48);
             MaximizeBtn.Cursor = Cursors.Hand;
             MaximizeBtn.Dock = DockStyle.Right;
+            MaximizeBtn.Enabled = false;
             MaximizeBtn.FlatAppearance.BorderColor = Color.FromArgb(63, 63, 70);
             MaximizeBtn.FlatAppearance.MouseDownBackColor = Color.FromArgb(150, 50, 50);
             MaximizeBtn.FlatAppearance.MouseOverBackColor = Color.FromArgb(180, 60, 60);
@@ -350,11 +359,11 @@
         private Button SettingsBtn;
         private Button ProjectionsBtn;
         private Button InvestmentsBtn;
-        private Button CallendarBtn;
+        private Button ScheduledTransactionsBtn;
         private Label UsernameLabel;
         private PictureBox UserPb;
-        private Panel MainPanel;
         private Button MinimizeBtn;
         private Button MaximizeBtn;
+        private Panel MainPanel;
     }
 }

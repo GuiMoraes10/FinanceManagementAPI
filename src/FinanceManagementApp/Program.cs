@@ -9,13 +9,19 @@ namespace FinanceManagementApp
         {
             ApplicationConfiguration.Initialize();
 
-            using LoginForm loginForm = new();
-
-            DialogResult result = loginForm.ShowDialog();
-
-            if (result == DialogResult.OK)
+            while (true)
             {
-                Application.Run(new MainForm());
+                using LoginForm loginForm = new();
+
+                if (loginForm.ShowDialog() != DialogResult.OK)
+                    break;
+
+                using MainForm mainForm = new();
+
+                mainForm.ShowDialog();
+
+                if (!mainForm.LogoutRequested)
+                    break;
             }
         }
     }
