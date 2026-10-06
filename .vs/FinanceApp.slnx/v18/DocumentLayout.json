@@ -3,64 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\financemanagementapp\\forms\\scheduledtransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\scheduledtransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\forms\\mainforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\mainforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\forms\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\forms\\mainforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\mainforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\forms\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\forms\\transactions.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\transactions.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\forms\\mainforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\mainforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\forms\\mainforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\mainforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\financemanagementapp\\forms\\financialprojection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\financialprojection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\dtos\\scheduledtransaction\\scheduledtransactionregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\dtos\\scheduledtransaction\\scheduledtransactionregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\financemanagementapp\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\financemanagementapp\\forms\\mainforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\mainforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\financemanagementapp\\forms\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\financemanagementapp\\forms\\investments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\financemanagementapp\\forms\\mainforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\mainforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\forms\\mainforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\mainforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\forms\\financialprojection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\financialprojection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\financemanagementapp\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\forms\\investments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\investments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5870BC-4B31-1569-23D0-2AF34580E3CE}|src\\FinanceApp\\FinanceApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financeapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5870BC-4B31-1569-23D0-2AF34580E3CE}|src\\FinanceApp\\FinanceApp.csproj|solutionrelative:src\\financeapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\financemanagementapp\\forms\\scheduledtransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\scheduledtransactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\forms\\mainforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\mainforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\forms\\transactions.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\transactions.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\forms\\financialprojection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\financialprojection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\dtos\\scheduledtransaction\\scheduledtransactionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\dtos\\scheduledtransaction\\scheduledtransactionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\dtos\\scheduledtransaction\\scheduledtransactionregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\dtos\\scheduledtransaction\\scheduledtransactionregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\dtos\\scheduledtransaction\\scheduledtransactionreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\dtos\\scheduledtransaction\\scheduledtransactionreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\dtos\\investment\\investmentupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,6 +69,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\dtos\\investment\\investmentregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\dtos\\investment\\investmentregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\forms\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\transactions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\forms\\mainforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\forms\\mainforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\financemanagementapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -93,14 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\dtos\\transaction\\transactionregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\dtos\\transaction\\transactionregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\dtos\\scheduledtransaction\\scheduledtransactionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\dtos\\scheduledtransaction\\scheduledtransactionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\dtos\\scheduledtransaction\\scheduledtransactionreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|solutionrelative:src\\financemanagementapp\\dtos\\scheduledtransaction\\scheduledtransactionreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B84C4C87-50FB-9614-F6AB-E303AD13D0D5}|src\\FinanceManagementApp\\FinanceManagementApp.csproj|c:\\users\\moraes\\documents\\proj\\pers\\financeapp\\src\\financemanagementapp\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -277,25 +277,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Program.cs",
-              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Program.cs",
-              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Program.cs",
-              "RelativeToolTip": "src\\FinanceManagementApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "MainForm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs",
+              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs [Projeto]",
+              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T17:54:06.239Z",
+              "WhenOpened": "2026-10-06T17:11:07.635Z",
+              "IsPinned": true,
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs",
+              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs",
+              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAkwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T14:22:56.722Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
+              "Title": "Settings.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Settings.cs",
+              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\Settings.cs",
+              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Settings.cs [Projeto]",
+              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\Settings.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T14:24:53.015Z",
+              "IsPinned": true,
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LoginForm.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\LoginForm.cs",
               "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\MainForms\\LoginForm.cs",
@@ -308,61 +334,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\MainForms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\LoginForm.cs",
-              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\MainForms\\LoginForm.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBEAAAAUAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "FinancialProjection.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\FinancialProjection.cs",
+              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\FinancialProjection.cs",
+              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\FinancialProjection.cs [Projeto]",
+              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\FinancialProjection.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T15:07:56.808Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-06T17:58:08.166Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Dashboard.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Dashboard.cs",
-              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Dashboard.cs [Projeto]",
-              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\Dashboard.cs [Projeto]",
+              "DocumentIndex": 6,
+              "Title": "Investments.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Investments.cs",
+              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\Investments.cs",
+              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Investments.cs [Projeto]",
+              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\Investments.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T14:23:57.467Z",
-              "IsPinned": true,
+              "WhenOpened": "2026-10-06T17:58:05.277Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainForm.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs",
-              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs",
-              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs [Projeto]",
-              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs [Projeto]",
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\MainForms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\LoginForm.cs",
+              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\MainForms\\LoginForm.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T13:56:48.858Z",
-              "IsPinned": true,
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs",
-              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs",
-              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs",
-              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAiwGIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T14:22:56.722Z",
-              "IsPinned": true,
+              "WhenOpened": "2026-10-02T15:07:56.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "ScheduledTransactions.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\ScheduledTransactions.cs",
               "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\ScheduledTransactions.cs",
@@ -370,57 +379,31 @@
               "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\ScheduledTransactions.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T14:24:17.196Z",
-              "IsPinned": true,
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Home.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\Home.cs",
-              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\MainForms\\Home.cs",
-              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\Home.cs [Projeto]",
-              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\MainForms\\Home.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T13:15:20.251Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Transactions.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Transactions.cs",
-              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\Transactions.cs",
-              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Transactions.cs [Projeto]",
-              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\Transactions.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T13:14:47.483Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Transactions.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Transactions.Designer.cs",
-              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\Transactions.Designer.cs",
-              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Transactions.Designer.cs",
-              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\Transactions.Designer.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAAwKcAAAAlAAAAAAAAAA==",
+              "Title": "Dashboard.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Dashboard.cs",
+              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Dashboard.cs [Projeto]",
+              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\Dashboard.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T13:08:11.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-02T14:23:57.467Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Transactions.cs",
-              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Transactions.cs",
-              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\Transactions.cs",
-              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Transactions.cs",
-              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\Transactions.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "src\\FinanceApp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "src\\FinanceApp\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T13:08:08.255Z",
+              "WhenOpened": "2026-10-06T14:23:10.19Z",
               "EditorCaption": ""
             },
             {
@@ -429,51 +412,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Investments.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Investments.cs",
-              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\Investments.cs",
-              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Investments.cs [Projeto]",
-              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\Investments.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T14:24:27.255Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FinancialProjection.cs [Projeto]",
+              "DocumentIndex": 11,
+              "Title": "FinancialProjection.cs",
               "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\FinancialProjection.cs",
               "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\FinancialProjection.cs",
-              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\FinancialProjection.cs [Projeto]",
-              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\FinancialProjection.cs [Projeto]",
+              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\FinancialProjection.cs",
+              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\FinancialProjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T14:24:42.115Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2026-10-06T14:23:06.708Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Settings.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Settings.cs",
-              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\Settings.cs",
-              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Settings.cs [Projeto]",
-              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\Settings.cs [Projeto]",
+              "DocumentIndex": 10,
+              "Title": "Transactions.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Transactions.Designer.cs",
+              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\Transactions.Designer.cs",
+              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Transactions.Designer.cs",
+              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\Transactions.Designer.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAwwNIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T14:24:53.015Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ScheduledTransactionRegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionRegisterDto.cs",
-              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionRegisterDto.cs",
-              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionRegisterDto.cs",
-              "RelativeToolTip": "src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionRegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T10:03:26.369Z",
+              "WhenOpened": "2026-10-06T13:08:11.571Z",
               "EditorCaption": ""
             },
             {
@@ -487,6 +447,45 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T10:03:19.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ScheduledTransactionRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionRegisterDto.cs",
+              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionRegisterDto.cs",
+              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionRegisterDto.cs",
+              "RelativeToolTip": "src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionRegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T10:03:26.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ScheduledTransactionReportDto.cs",
+              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionReportDto.cs",
+              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionReportDto.cs",
+              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionReportDto.cs",
+              "RelativeToolTip": "src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionReportDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T10:03:32.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ScheduledTransactionUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionUpdateDto.cs",
+              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionUpdateDto.cs",
+              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionUpdateDto.cs",
+              "RelativeToolTip": "src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T10:04:27.375Z",
               "EditorCaption": ""
             },
             {
@@ -505,6 +504,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "Transactions.cs",
+              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Transactions.cs",
+              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\Transactions.cs",
+              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\Transactions.cs",
+              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\Transactions.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T13:08:08.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Home.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\Home.cs",
+              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\MainForms\\Home.cs",
+              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\Home.cs [Projeto]",
+              "RelativeToolTip": "src\\FinanceManagementApp\\Forms\\MainForms\\Home.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T13:15:20.251Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "FinanceManagementApp",
               "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\FinanceManagementApp.csproj",
               "RelativeDocumentMoniker": "src\\FinanceManagementApp\\FinanceManagementApp.csproj",
@@ -516,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Home.Designer.cs",
               "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\Home.Designer.cs",
               "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\MainForms\\Home.Designer.cs",
@@ -529,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "FinanceManagementApp.csproj",
               "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\FinanceManagementApp.csproj",
               "RelativeDocumentMoniker": "src\\FinanceManagementApp\\FinanceManagementApp.csproj",
@@ -541,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "src\\FinanceManagementApp\\Forms\\MainForms\\MainForm.Designer.cs",
@@ -591,30 +615,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "ScheduledTransactionReportDto.cs",
-              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionReportDto.cs",
-              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionReportDto.cs",
-              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionReportDto.cs",
-              "RelativeToolTip": "src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionReportDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T10:03:32.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ScheduledTransactionUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionUpdateDto.cs",
-              "RelativeDocumentMoniker": "src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionUpdateDto.cs",
-              "ToolTip": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionUpdateDto.cs",
-              "RelativeToolTip": "src\\FinanceManagementApp\\DTOs\\ScheduledTransaction\\ScheduledTransactionUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T10:04:27.375Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
               "Title": "TransactionRegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\DTOs\\Transaction\\TransactionRegisterDto.cs",
               "RelativeDocumentMoniker": "src\\FinanceManagementApp\\DTOs\\Transaction\\TransactionRegisterDto.cs",
@@ -626,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "TransactionUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\moraes\\Documents\\Proj\\Pers\\FinanceApp\\src\\FinanceManagementApp\\DTOs\\Transaction\\TransactionUpdateDto.cs",
               "RelativeDocumentMoniker": "src\\FinanceManagementApp\\DTOs\\Transaction\\TransactionUpdateDto.cs",

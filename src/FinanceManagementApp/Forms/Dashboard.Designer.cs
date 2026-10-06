@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             BalancePanel = new Panel();
+            EditBalancePb = new PictureBox();
             BalanceValueLabel = new Label();
             BalanceLabel = new Label();
             IncomingsPanel = new Panel();
@@ -51,6 +52,7 @@
             NextScheduledRtb = new RichTextBox();
             NextScheduledLabel = new Label();
             BalancePanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)EditBalancePb).BeginInit();
             IncomingsPanel.SuspendLayout();
             ExpensesPanel.SuspendLayout();
             panel1.SuspendLayout();
@@ -63,12 +65,24 @@
             // 
             BalancePanel.BackColor = Color.FromArgb(50, 50, 50);
             BalancePanel.BorderStyle = BorderStyle.FixedSingle;
+            BalancePanel.Controls.Add(EditBalancePb);
             BalancePanel.Controls.Add(BalanceValueLabel);
             BalancePanel.Controls.Add(BalanceLabel);
             BalancePanel.Location = new Point(41, 61);
             BalancePanel.Name = "BalancePanel";
             BalancePanel.Size = new Size(165, 74);
             BalancePanel.TabIndex = 0;
+            // 
+            // EditBalancePb
+            // 
+            EditBalancePb.Cursor = Cursors.Hand;
+            EditBalancePb.Image = (Image)resources.GetObject("EditBalancePb.Image");
+            EditBalancePb.Location = new Point(6, 29);
+            EditBalancePb.Name = "EditBalancePb";
+            EditBalancePb.Size = new Size(25, 22);
+            EditBalancePb.SizeMode = PictureBoxSizeMode.Zoom;
+            EditBalancePb.TabIndex = 4;
+            EditBalancePb.TabStop = false;
             // 
             // BalanceValueLabel
             // 
@@ -322,6 +336,7 @@
             Text = "Dashboard";
             BalancePanel.ResumeLayout(false);
             BalancePanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)EditBalancePb).EndInit();
             IncomingsPanel.ResumeLayout(false);
             IncomingsPanel.PerformLayout();
             ExpensesPanel.ResumeLayout(false);
@@ -360,5 +375,6 @@
         private Label InvestmentsValueLabel;
         private RichTextBox LastTransactionsRtb;
         private RichTextBox NextScheduledRtb;
+        private PictureBox EditBalancePb;
     }
 }

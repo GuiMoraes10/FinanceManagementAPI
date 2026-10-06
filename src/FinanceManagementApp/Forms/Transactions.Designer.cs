@@ -50,11 +50,11 @@
             ResultValueLabel = new Label();
             ResultLabel = new Label();
             TransactionsDgv = new DataGridView();
-            colDate = new DataGridViewTextBoxColumn();
-            colName = new DataGridViewTextBoxColumn();
-            colCategory = new DataGridViewTextBoxColumn();
-            colType = new DataGridViewTextBoxColumn();
             colValue = new DataGridViewTextBoxColumn();
+            colType = new DataGridViewTextBoxColumn();
+            colCategory = new DataGridViewTextBoxColumn();
+            colName = new DataGridViewTextBoxColumn();
+            colDate = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)TransactionsDgv).BeginInit();
             SuspendLayout();
             // 
@@ -312,23 +312,11 @@
             TransactionsDgv.Size = new Size(649, 294);
             TransactionsDgv.TabIndex = 21;
             // 
-            // colDate
+            // colValue
             // 
-            colDate.HeaderText = "Data";
-            colDate.Name = "colDate";
-            colDate.ReadOnly = true;
-            // 
-            // colName
-            // 
-            colName.HeaderText = "Nome";
-            colName.Name = "colName";
-            colName.ReadOnly = true;
-            // 
-            // colCategory
-            // 
-            colCategory.HeaderText = "Categoria";
-            colCategory.Name = "colCategory";
-            colCategory.ReadOnly = true;
+            colValue.HeaderText = "Valor";
+            colValue.Name = "colValue";
+            colValue.ReadOnly = true;
             // 
             // colType
             // 
@@ -336,11 +324,23 @@
             colType.Name = "colType";
             colType.ReadOnly = true;
             // 
-            // colValue
+            // colCategory
             // 
-            colValue.HeaderText = "Valor";
-            colValue.Name = "colValue";
-            colValue.ReadOnly = true;
+            colCategory.HeaderText = "Categoria";
+            colCategory.Name = "colCategory";
+            colCategory.ReadOnly = true;
+            // 
+            // colName
+            // 
+            colName.HeaderText = "Nome";
+            colName.Name = "colName";
+            colName.ReadOnly = true;
+            // 
+            // colDate
+            // 
+            colDate.HeaderText = "Data";
+            colDate.Name = "colDate";
+            colDate.ReadOnly = true;
             // 
             // Transactions
             // 
