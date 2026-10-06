@@ -1,8 +1,8 @@
 ﻿namespace FinanceManagementApp.Forms
 {
-    public partial class HomeForm : Form
+    public partial class Home : Form
     {
-        public HomeForm(string userName)
+        public Home(string userName)
         {
             InitializeComponent();
 

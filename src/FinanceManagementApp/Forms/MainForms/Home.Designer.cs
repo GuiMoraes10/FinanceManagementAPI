@@ -1,6 +1,6 @@
 ﻿namespace FinanceManagementApp.Forms
 {
-    partial class HomeForm
+    partial class Home
     {
         /// <summary>
         /// Required designer variable.

@@ -15,7 +15,7 @@ namespace FinanceManagementApp
 
                 if (loginForm.ShowDialog() != DialogResult.OK)
                     break;
-
+                
                 using MainForm mainForm = new();
 
                 mainForm.ShowDialog();

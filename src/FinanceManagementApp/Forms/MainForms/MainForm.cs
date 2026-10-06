@@ -11,7 +11,7 @@ namespace FinanceManagementApp
 
             mainButtons = [DashboardBtn, TransactionsBtn, ScheduledTransactionsBtn, InvestmentsBtn, ProjectionsBtn, SettingsBtn];
 
-            OpenFormInPanel(new HomeForm("Guilherme"));
+            OpenFormInPanel(new Home("Guilherme"));
         }
 
         private Form? _currentForm;
@@ -77,7 +77,7 @@ namespace FinanceManagementApp
 
         private void SwPicturePb_Click(object sender, EventArgs e)
         {
-            OpenFormInPanel(new HomeForm("Guilherme"));
+            OpenFormInPanel(new Home("Guilherme"));
             SetDefaultButtonsCollor();
         }
 
