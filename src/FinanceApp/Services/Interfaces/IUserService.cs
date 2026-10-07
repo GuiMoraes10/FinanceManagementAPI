@@ -11,6 +11,7 @@ namespace FinanceApp.Services.Interfaces
         public Task<bool> DeleteUserAsync(string id);
         public Task<User?> UpdateUser(string id, UserUpdateDto dto);
         public Task<bool> SetUserBalance(string id, decimal value);
-        public Task<bool> SetUserPassword(string id, string value);
+        public Task<bool> SetUserPassword(string id, ChangePasswordDto dto);
+        public Task<bool> LoginAsync(string userName, string password);
     }
 }

@@ -1,8 +1,6 @@
-﻿using FinanceApp.Configuration;
-using FinanceApp.DTOs.User;
+﻿using FinanceApp.DTOs.User;
 using FinanceApp.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using System.ComponentModel.DataAnnotations;
 
 namespace FinanceApp.Controllers
 {
@@ -82,14 +80,25 @@ namespace FinanceApp.Controllers
         }
 
         [HttpPatch("{id}/password")]
-        public async Task<IActionResult> UpdatePassword(string id, [FromBody][Required] string password)
+        public async Task<IActionResult> UpdatePassword(string id, [FromBody] ChangePasswordDto dto)
         {
-            var result = await _userService.SetUserPassword(id, password);
+            var result = await _userService.SetUserPassword(id, dto);
 
             if (!result)
-                return NotFound("User was not found");
+                return BadRequest("Invalid password or user not found.");
 
             return NoContent();
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> LoginUser([FromBody] UserLoginDto dto)
+        {
+            var result = await _userService.LoginAsync(dto.UserName, dto.Password);
+
+            if (result)
+                return Ok();
+
+            return Unauthorized("Acesss denied");
         }
     }
 }

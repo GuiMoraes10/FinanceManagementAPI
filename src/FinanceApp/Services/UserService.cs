@@ -5,9 +5,10 @@ using FinanceApp.Services.Interfaces;
 
 namespace FinanceApp.Services
 {
-    public class UserService(IUserRepository repository) : IUserService
+    public class UserService(IUserRepository repository, IPasswordService passwordService) : IUserService
     {
         private readonly IUserRepository _repository = repository;
+        private readonly IPasswordService _passwordService = passwordService;
 
         public async Task<User?> CreateNewUser(UserRegisterDto dto)
         {
@@ -22,8 +23,9 @@ namespace FinanceApp.Services
             {
                 Name = dto.Name,
                 UserName = userName,
-                Password = dto.Password,
             };
+
+            user.PasswordHash = _passwordService.HashPassword(user, dto.Password);
 
             return await _repository.CreateAsync(user);
         }
@@ -81,18 +83,35 @@ namespace FinanceApp.Services
             return user;
         }
 
-        public async Task<bool> SetUserPassword(string id, string value)
+        public async Task<bool> SetUserPassword(string id, ChangePasswordDto dto)
         {
             User? user = await _repository.GetByIdAsync(id);
 
             if (user is null)
                 return false;
 
-            user.Password = value;
+            var validPassword = _passwordService.VerifyPassword(user, dto.CurrentPassword, user.PasswordHash);
 
-            user = await _repository.UpdateAsync(user);
+            if (!validPassword)
+                return false;
 
-            return user.Password == value;
+            user.PasswordHash = _passwordService.HashPassword(user, dto.NewPassword);
+
+            await _repository.UpdateAsync(user);
+
+            return true;
+        }
+
+        public async Task<bool> LoginAsync(string userName, string password)
+        {
+            userName = userName.Trim().ToLowerInvariant();
+
+            var user = await _repository.GetByUserNameAsync(userName);
+
+            if (user is null)
+                return false;
+
+            return _passwordService.VerifyPassword(user, password, user.PasswordHash);
         }
     }
 }

@@ -51,6 +51,7 @@ builder.Services.AddScoped<IInvestmentService, InvestmentService>();
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 builder.Services.AddScoped<ITransactionService, TransactionService>();
 builder.Services.AddScoped<IFinancialProjectionService, FinancialProjectionService>();
+builder.Services.AddScoped<IPasswordService, PasswordService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

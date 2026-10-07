@@ -535,7 +535,39 @@
         "IsRequired": true
       },
       {
-        "Name": "password",
+        "Name": "dto",
+        "Type": "FinanceApp.DTOs.User.ChangePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceApp.Controllers.UserController",
+    "Method": "LoginUser",
+    "RelativePath": "user/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "FinanceApp.DTOs.User.UserLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FinanceApp.Controllers.UserController",
+    "Method": "GetUserByUserName",
+    "RelativePath": "user/username/{userName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
         "Type": "System.String",
         "IsRequired": true
       }
