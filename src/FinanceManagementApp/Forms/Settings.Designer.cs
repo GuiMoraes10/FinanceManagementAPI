@@ -30,25 +30,25 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Settings));
             BalancePanel = new Panel();
-            ProfileLabel = new Label();
-            panel1 = new Panel();
-            FinancesLabel = new Label();
-            panel2 = new Panel();
-            SystemLabel = new Label();
+            SaveProfileBtn = new Button();
+            NameLabel = new Label();
+            NameTextBox = new TextBox();
             PasswordLabel = new Label();
             UserLabel = new Label();
             PasswordTextBox = new TextBox();
             UserTextBox = new TextBox();
-            NameLabel = new Label();
-            NameTextBox = new TextBox();
-            SaveProfileBtn = new Button();
-            SaveFinancesBtn = new Button();
+            ProfileLabel = new Label();
+            panel1 = new Panel();
             BalanceLabel = new Label();
+            SaveFinancesBtn = new Button();
             BalanceTextBox = new TextBox();
-            VersionLabel = new Label();
-            VersionValueLabel = new Label();
+            FinancesLabel = new Label();
+            panel2 = new Panel();
             ApiValueLabel = new Label();
             ApiLabel = new Label();
+            VersionValueLabel = new Label();
+            VersionLabel = new Label();
+            SystemLabel = new Label();
             BalancePanel.SuspendLayout();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -71,68 +71,44 @@
             BalancePanel.Size = new Size(695, 139);
             BalancePanel.TabIndex = 12;
             // 
-            // ProfileLabel
+            // SaveProfileBtn
             // 
-            ProfileLabel.AutoSize = true;
-            ProfileLabel.Font = new Font("Bahnschrift SemiCondensed", 14F);
-            ProfileLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            ProfileLabel.Location = new Point(3, 2);
-            ProfileLabel.Name = "ProfileLabel";
-            ProfileLabel.Size = new Size(49, 23);
-            ProfileLabel.TabIndex = 6;
-            ProfileLabel.Text = "Perfil";
-            ProfileLabel.TextAlign = ContentAlignment.TopCenter;
+            SaveProfileBtn.BackColor = Color.FromArgb(70, 70, 74);
+            SaveProfileBtn.Cursor = Cursors.Hand;
+            SaveProfileBtn.FlatAppearance.BorderColor = Color.FromArgb(85, 85, 90);
+            SaveProfileBtn.FlatAppearance.MouseDownBackColor = Color.FromArgb(95, 95, 100);
+            SaveProfileBtn.FlatAppearance.MouseOverBackColor = Color.FromArgb(85, 85, 90);
+            SaveProfileBtn.FlatStyle = FlatStyle.Flat;
+            SaveProfileBtn.Font = new Font("Bahnschrift", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SaveProfileBtn.ForeColor = Color.FromArgb(241, 241, 241);
+            SaveProfileBtn.Location = new Point(376, 58);
+            SaveProfileBtn.Name = "SaveProfileBtn";
+            SaveProfileBtn.Size = new Size(75, 27);
+            SaveProfileBtn.TabIndex = 13;
+            SaveProfileBtn.Text = "Salvar";
+            SaveProfileBtn.UseVisualStyleBackColor = false;
             // 
-            // panel1
+            // NameLabel
             // 
-            panel1.BackColor = Color.FromArgb(50, 50, 50);
-            panel1.BorderStyle = BorderStyle.FixedSingle;
-            panel1.Controls.Add(BalanceLabel);
-            panel1.Controls.Add(SaveFinancesBtn);
-            panel1.Controls.Add(BalanceTextBox);
-            panel1.Controls.Add(FinancesLabel);
-            panel1.Location = new Point(12, 198);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(695, 139);
-            panel1.TabIndex = 13;
+            NameLabel.AutoSize = true;
+            NameLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
+            NameLabel.ForeColor = Color.FromArgb(241, 241, 241);
+            NameLabel.Location = new Point(125, 20);
+            NameLabel.Name = "NameLabel";
+            NameLabel.Size = new Size(47, 19);
+            NameLabel.TabIndex = 12;
+            NameLabel.Text = "Nome:";
             // 
-            // FinancesLabel
+            // NameTextBox
             // 
-            FinancesLabel.AutoSize = true;
-            FinancesLabel.Font = new Font("Bahnschrift SemiCondensed", 14F);
-            FinancesLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            FinancesLabel.Location = new Point(3, 2);
-            FinancesLabel.Name = "FinancesLabel";
-            FinancesLabel.Size = new Size(87, 23);
-            FinancesLabel.TabIndex = 6;
-            FinancesLabel.Text = "Financeiro";
-            FinancesLabel.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.FromArgb(50, 50, 50);
-            panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel2.Controls.Add(ApiValueLabel);
-            panel2.Controls.Add(ApiLabel);
-            panel2.Controls.Add(VersionValueLabel);
-            panel2.Controls.Add(VersionLabel);
-            panel2.Controls.Add(SystemLabel);
-            panel2.Location = new Point(12, 360);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(695, 139);
-            panel2.TabIndex = 14;
-            // 
-            // SystemLabel
-            // 
-            SystemLabel.AutoSize = true;
-            SystemLabel.Font = new Font("Bahnschrift SemiCondensed", 14F);
-            SystemLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            SystemLabel.Location = new Point(3, 2);
-            SystemLabel.Name = "SystemLabel";
-            SystemLabel.Size = new Size(70, 23);
-            SystemLabel.TabIndex = 6;
-            SystemLabel.Text = "Sistema";
-            SystemLabel.TextAlign = ContentAlignment.TopCenter;
+            NameTextBox.BackColor = Color.FromArgb(51, 51, 51);
+            NameTextBox.BorderStyle = BorderStyle.FixedSingle;
+            NameTextBox.Font = new Font("Bahnschrift SemiCondensed", 10F);
+            NameTextBox.ForeColor = Color.FromArgb(241, 241, 241);
+            NameTextBox.Location = new Point(178, 18);
+            NameTextBox.Name = "NameTextBox";
+            NameTextBox.Size = new Size(137, 24);
+            NameTextBox.TabIndex = 11;
             // 
             // PasswordLabel
             // 
@@ -179,44 +155,41 @@
             UserTextBox.Size = new Size(137, 24);
             UserTextBox.TabIndex = 7;
             // 
-            // NameLabel
+            // ProfileLabel
             // 
-            NameLabel.AutoSize = true;
-            NameLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
-            NameLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            NameLabel.Location = new Point(125, 20);
-            NameLabel.Name = "NameLabel";
-            NameLabel.Size = new Size(47, 19);
-            NameLabel.TabIndex = 12;
-            NameLabel.Text = "Nome:";
+            ProfileLabel.AutoSize = true;
+            ProfileLabel.Font = new Font("Bahnschrift SemiCondensed", 14F);
+            ProfileLabel.ForeColor = Color.FromArgb(241, 241, 241);
+            ProfileLabel.Location = new Point(3, 2);
+            ProfileLabel.Name = "ProfileLabel";
+            ProfileLabel.Size = new Size(49, 23);
+            ProfileLabel.TabIndex = 6;
+            ProfileLabel.Text = "Perfil";
+            ProfileLabel.TextAlign = ContentAlignment.TopCenter;
             // 
-            // NameTextBox
+            // panel1
             // 
-            NameTextBox.BackColor = Color.FromArgb(51, 51, 51);
-            NameTextBox.BorderStyle = BorderStyle.FixedSingle;
-            NameTextBox.Font = new Font("Bahnschrift SemiCondensed", 10F);
-            NameTextBox.ForeColor = Color.FromArgb(241, 241, 241);
-            NameTextBox.Location = new Point(178, 18);
-            NameTextBox.Name = "NameTextBox";
-            NameTextBox.Size = new Size(137, 24);
-            NameTextBox.TabIndex = 11;
+            panel1.BackColor = Color.FromArgb(50, 50, 50);
+            panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(BalanceLabel);
+            panel1.Controls.Add(SaveFinancesBtn);
+            panel1.Controls.Add(BalanceTextBox);
+            panel1.Controls.Add(FinancesLabel);
+            panel1.Location = new Point(12, 196);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(695, 139);
+            panel1.TabIndex = 13;
             // 
-            // SaveProfileBtn
+            // BalanceLabel
             // 
-            SaveProfileBtn.BackColor = Color.FromArgb(70, 70, 74);
-            SaveProfileBtn.Cursor = Cursors.Hand;
-            SaveProfileBtn.FlatAppearance.BorderColor = Color.FromArgb(85, 85, 90);
-            SaveProfileBtn.FlatAppearance.MouseDownBackColor = Color.FromArgb(95, 95, 100);
-            SaveProfileBtn.FlatAppearance.MouseOverBackColor = Color.FromArgb(85, 85, 90);
-            SaveProfileBtn.FlatStyle = FlatStyle.Flat;
-            SaveProfileBtn.Font = new Font("Bahnschrift", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            SaveProfileBtn.ForeColor = Color.FromArgb(241, 241, 241);
-            SaveProfileBtn.Location = new Point(376, 58);
-            SaveProfileBtn.Name = "SaveProfileBtn";
-            SaveProfileBtn.Size = new Size(75, 27);
-            SaveProfileBtn.TabIndex = 13;
-            SaveProfileBtn.Text = "Salvar";
-            SaveProfileBtn.UseVisualStyleBackColor = false;
+            BalanceLabel.AutoSize = true;
+            BalanceLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
+            BalanceLabel.ForeColor = Color.FromArgb(241, 241, 241);
+            BalanceLabel.Location = new Point(125, 64);
+            BalanceLabel.Name = "BalanceLabel";
+            BalanceLabel.Size = new Size(47, 19);
+            BalanceLabel.TabIndex = 15;
+            BalanceLabel.Text = "Saldo:";
             // 
             // SaveFinancesBtn
             // 
@@ -235,17 +208,6 @@
             SaveFinancesBtn.Text = "Salvar";
             SaveFinancesBtn.UseVisualStyleBackColor = false;
             // 
-            // BalanceLabel
-            // 
-            BalanceLabel.AutoSize = true;
-            BalanceLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
-            BalanceLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            BalanceLabel.Location = new Point(125, 64);
-            BalanceLabel.Name = "BalanceLabel";
-            BalanceLabel.Size = new Size(47, 19);
-            BalanceLabel.TabIndex = 15;
-            BalanceLabel.Text = "Saldo:";
-            // 
             // BalanceTextBox
             // 
             BalanceTextBox.BackColor = Color.FromArgb(51, 51, 51);
@@ -257,27 +219,31 @@
             BalanceTextBox.Size = new Size(137, 24);
             BalanceTextBox.TabIndex = 14;
             // 
-            // VersionLabel
+            // FinancesLabel
             // 
-            VersionLabel.AutoSize = true;
-            VersionLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
-            VersionLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            VersionLabel.Location = new Point(293, 38);
-            VersionLabel.Name = "VersionLabel";
-            VersionLabel.Size = new Size(54, 19);
-            VersionLabel.TabIndex = 14;
-            VersionLabel.Text = "Versão:";
+            FinancesLabel.AutoSize = true;
+            FinancesLabel.Font = new Font("Bahnschrift SemiCondensed", 14F);
+            FinancesLabel.ForeColor = Color.FromArgb(241, 241, 241);
+            FinancesLabel.Location = new Point(3, 2);
+            FinancesLabel.Name = "FinancesLabel";
+            FinancesLabel.Size = new Size(87, 23);
+            FinancesLabel.TabIndex = 6;
+            FinancesLabel.Text = "Financeiro";
+            FinancesLabel.TextAlign = ContentAlignment.TopCenter;
             // 
-            // VersionValueLabel
+            // panel2
             // 
-            VersionValueLabel.AutoSize = true;
-            VersionValueLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
-            VersionValueLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            VersionValueLabel.Location = new Point(353, 38);
-            VersionValueLabel.Name = "VersionValueLabel";
-            VersionValueLabel.Size = new Size(36, 19);
-            VersionValueLabel.TabIndex = 15;
-            VersionValueLabel.Text = "1.0.0";
+            panel2.BackColor = Color.FromArgb(50, 50, 50);
+            panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(ApiValueLabel);
+            panel2.Controls.Add(ApiLabel);
+            panel2.Controls.Add(VersionValueLabel);
+            panel2.Controls.Add(VersionLabel);
+            panel2.Controls.Add(SystemLabel);
+            panel2.Location = new Point(12, 360);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(695, 139);
+            panel2.TabIndex = 14;
             // 
             // ApiValueLabel
             // 
@@ -300,6 +266,40 @@
             ApiLabel.Size = new Size(33, 19);
             ApiLabel.TabIndex = 16;
             ApiLabel.Text = "API:";
+            // 
+            // VersionValueLabel
+            // 
+            VersionValueLabel.AutoSize = true;
+            VersionValueLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
+            VersionValueLabel.ForeColor = Color.FromArgb(241, 241, 241);
+            VersionValueLabel.Location = new Point(353, 38);
+            VersionValueLabel.Name = "VersionValueLabel";
+            VersionValueLabel.Size = new Size(36, 19);
+            VersionValueLabel.TabIndex = 15;
+            VersionValueLabel.Text = "1.0.0";
+            // 
+            // VersionLabel
+            // 
+            VersionLabel.AutoSize = true;
+            VersionLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
+            VersionLabel.ForeColor = Color.FromArgb(241, 241, 241);
+            VersionLabel.Location = new Point(293, 38);
+            VersionLabel.Name = "VersionLabel";
+            VersionLabel.Size = new Size(54, 19);
+            VersionLabel.TabIndex = 14;
+            VersionLabel.Text = "Versão:";
+            // 
+            // SystemLabel
+            // 
+            SystemLabel.AutoSize = true;
+            SystemLabel.Font = new Font("Bahnschrift SemiCondensed", 14F);
+            SystemLabel.ForeColor = Color.FromArgb(241, 241, 241);
+            SystemLabel.Location = new Point(3, 2);
+            SystemLabel.Name = "SystemLabel";
+            SystemLabel.Size = new Size(70, 23);
+            SystemLabel.TabIndex = 6;
+            SystemLabel.Text = "Sistema";
+            SystemLabel.TextAlign = ContentAlignment.TopCenter;
             // 
             // Settings
             // 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FinanceManagementApp.Services
+namespace FinanceManagementApp.Services.APIs
 {
     internal class ApiService
     {
