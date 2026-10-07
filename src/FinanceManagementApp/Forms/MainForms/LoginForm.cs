@@ -1,4 +1,7 @@
-﻿using System.Runtime.InteropServices;
+﻿using FinanceManagementApp.Controllers;
+using FinanceManagementApp.Entities;
+using FinanceManagementApp.Forms.PopUps;
+using System.Runtime.InteropServices;
 
 namespace FinanceManagementApp.Forms
 {
@@ -8,6 +11,9 @@ namespace FinanceManagementApp.Forms
         {
             InitializeComponent();
         }
+
+        private readonly LoginController controller = new();
+        public User? AuthenticatedUser { get; private set; }
 
         [DllImport("user32.dll")]
         private static extern bool ReleaseCapture();
@@ -22,11 +28,6 @@ namespace FinanceManagementApp.Forms
         private const int WM_NCLBUTTONDOWN = 0xA1;
         private const int HTCAPTION = 0x2;
 
-        private void CloseBtn_Click(object sender, EventArgs e)
-        {
-            DialogResult = DialogResult.Cancel;
-        }
-
         private void TopPanel_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
@@ -36,9 +37,35 @@ namespace FinanceManagementApp.Forms
             }
         }
 
-        private void LoginBtn_Click(object sender, EventArgs e)
+        private void CloseBtn_Click(object sender, EventArgs e)
         {
-            DialogResult = DialogResult.OK;
+            DialogResult = DialogResult.Cancel;
+        }
+
+        private void MinimizeBtn_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private async void LoginBtn_Click(object sender, EventArgs e)
+        {
+            var user = await controller.LoginUser(UserTextBox.Text, PasswordTextBox.Text);
+
+            if (user != null)
+            {
+                AuthenticatedUser = user;
+                MessagePopup.Show("Bem vindo!", "Login realizado com sucesso");
+                DialogResult = DialogResult.OK;
+            }
+            else
+            {
+                MessagePopup.Show("Erro", "Usuário ou senha incorretos");
+            }
+        }
+
+        private void RegisterBtn_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void PasswordTextBox_KeyDown(object sender, KeyEventArgs e)
@@ -55,11 +82,6 @@ namespace FinanceManagementApp.Forms
             {
                 LoginBtn_Click(sender, e);
             }
-        }
-
-        private void MinimizeBtn_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

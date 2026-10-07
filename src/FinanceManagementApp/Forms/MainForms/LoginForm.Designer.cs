@@ -104,6 +104,7 @@
             RegisterBtn.TabIndex = 3;
             RegisterBtn.Text = "Registrar";
             RegisterBtn.UseVisualStyleBackColor = false;
+            RegisterBtn.Click += RegisterBtn_Click;
             // 
             // TitleLabel
             // 

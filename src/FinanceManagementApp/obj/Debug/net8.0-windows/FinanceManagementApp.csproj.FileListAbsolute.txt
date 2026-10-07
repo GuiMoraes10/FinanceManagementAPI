@@ -27,3 +27,5 @@ C:\Users\moraes\Documents\Proj\Pers\FinanceApp\src\FinanceManagementApp\obj\Debu
 C:\Users\moraes\Documents\Proj\Pers\FinanceApp\src\FinanceManagementApp\obj\Debug\net8.0-windows\FinanceManagementApp.Forms.Home.resources
 C:\Users\moraes\Documents\Proj\Pers\FinanceApp\src\FinanceManagementApp\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
 C:\Users\moraes\Documents\Proj\Pers\FinanceApp\src\FinanceManagementApp\obj\Debug\net8.0-windows\FinanceManagementApp.csproj.AssemblyReference.cache
+C:\Users\moraes\Documents\Proj\Pers\FinanceApp\src\FinanceManagementApp\obj\Debug\net8.0-windows\FinanceManagementApp.Forms.PopUps.MessagePopup.resources
+C:\Users\moraes\Documents\Proj\Pers\FinanceApp\src\FinanceManagementApp\obj\Debug\net8.0-windows\FinanceManagementApp.Forms.PopUps.RegisterPopup.resources

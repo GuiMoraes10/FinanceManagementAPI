@@ -1,3 +1,4 @@
+using FinanceManagementApp.Entities;
 using FinanceManagementApp.Forms;
 using System.Runtime.InteropServices;
 
@@ -5,13 +6,16 @@ namespace FinanceManagementApp
 {
     public partial class MainForm : Form
     {
-        public MainForm()
+        private User user;
+        public MainForm(User loginUser)
         {
             InitializeComponent();
 
             mainButtons = [DashboardBtn, TransactionsBtn, ScheduledTransactionsBtn, InvestmentsBtn, ProjectionsBtn, SettingsBtn];
 
-            OpenFormInPanel(new Home("Guilherme"));
+            user = loginUser;
+
+            OpenFormInPanel(new Home(user.Name));
         }
 
         private Form? _currentForm;
@@ -77,7 +81,7 @@ namespace FinanceManagementApp
 
         private void SwPicturePb_Click(object sender, EventArgs e)
         {
-            OpenFormInPanel(new Home("Guilherme"));
+            OpenFormInPanel(new Home(user.Name));
             SetDefaultButtonsCollor();
         }
 

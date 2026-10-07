@@ -19,6 +19,12 @@
     <Compile Update="Forms\MainForms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\PopUps\MessagePopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PopUps\RegisterPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\ScheduledTransactions.cs">
       <SubType>Form</SubType>
     </Compile>
