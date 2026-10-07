@@ -40,6 +40,26 @@ namespace FinanceApp.Repositories
             }
         }
 
+        public async Task<Entities.User?> GetByUserNameAsync(string userName)
+        {
+            var query = new QueryDefinition(
+                        "SELECT TOP 1 * FROM c WHERE c.userName = @userName")
+                        .WithParameter("@userName", userName);
+
+            using FeedIterator<Entities.User> iterator =
+                _container.GetItemQueryIterator<Entities.User>(query);
+
+            while (iterator.HasMoreResults)
+            {
+                FeedResponse<Entities.User> response =
+                    await iterator.ReadNextAsync();
+
+                return response.FirstOrDefault();
+            }
+
+            return null;
+        }
+
         public async Task<Entities.User> UpdateAsync(Entities.User user)
         {
             var response = await _container.ReplaceItemAsync(

@@ -1,5 +1,4 @@
-﻿using FinanceApp.DTOs;
-using FinanceApp.Entities;
+﻿using FinanceApp.Entities;
 
 namespace FinanceApp.Repositories.Interfaces
 {
@@ -7,6 +6,7 @@ namespace FinanceApp.Repositories.Interfaces
     {
         public Task<User> CreateAsync(User user);
         public Task<User?> GetByIdAsync(string id);
+        public Task<User?> GetByUserNameAsync(string userName);
         public Task<User> UpdateAsync(User user);
         public Task<bool> DeleteAsync(string id);
     }

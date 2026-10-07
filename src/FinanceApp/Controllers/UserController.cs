@@ -23,6 +23,17 @@ namespace FinanceApp.Controllers
             return CreatedAtAction(nameof(GetUser), new { id = result.Id }, result);
         }
 
+        [HttpGet("username/{userName}")]
+        public async Task<IActionResult> GetUserByUserName(string userName)
+        {
+            var result = await _userService.GetUserByUserName(userName);
+
+            if (result is null)
+                return NotFound("User was not found");
+
+            return Ok(result);
+        }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetUser(string id)
         {
@@ -51,7 +62,7 @@ namespace FinanceApp.Controllers
             var result = await _userService.UpdateUser(id, dto);
 
             if (result is null)
-                return NotFound("User was not found");
+                return BadRequest("User was not updated");
 
             return Ok(result);
         }

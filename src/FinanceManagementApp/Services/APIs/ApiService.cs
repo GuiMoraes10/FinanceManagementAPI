@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FinanceManagementApp.Services.APIs
+﻿namespace FinanceManagementApp.Services.APIs
 {
-    internal class ApiService
+    public class ApiService
     {
+        private readonly HttpService httpService = new();
+        private readonly string Address = "https://localhost:7164";
+
+
     }
 }

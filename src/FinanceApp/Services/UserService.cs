@@ -9,12 +9,19 @@ namespace FinanceApp.Services
     {
         private readonly IUserRepository _repository = repository;
 
-        public async Task<User> CreateNewUser(UserRegisterDto dto)
+        public async Task<User?> CreateNewUser(UserRegisterDto dto)
         {
+            var userName = dto.UserName.Trim().ToLowerInvariant();
+
+            var existingUser = await _repository.GetByUserNameAsync(userName);
+
+            if (existingUser is not null)
+                return null;
+
             User user = new()
             {
                 Name = dto.Name,
-                UserName = dto.UserName,
+                UserName = userName,
                 Password = dto.Password,
             };
 
@@ -24,6 +31,13 @@ namespace FinanceApp.Services
         public async Task<User?> GetUserById(string id)
         {
             return await _repository.GetByIdAsync(id);
+        }
+
+        public async Task<User?> GetUserByUserName(string userName)
+        {
+            userName = userName.Trim().ToLowerInvariant();
+
+            return await _repository.GetByUserNameAsync(userName);
         }
 
         public async Task<bool> DeleteUserAsync(string id)
@@ -47,13 +61,20 @@ namespace FinanceApp.Services
 
         public async Task<User?> UpdateUser(string id, UserUpdateDto dto)
         {
+            var userName = dto.UserName.Trim().ToLowerInvariant();
+
             User? user = await _repository.GetByIdAsync(id);
 
             if (user is null)
                 return null;
 
+            User? existingUser = await _repository.GetByUserNameAsync(userName);
+
+            if (existingUser is not null && existingUser.Id != id)
+                return null;
+
             user.Name = dto.Name;
-            user.UserName = dto.UserName;
+            user.UserName = userName;
 
             user = await _repository.UpdateAsync(user);
 
@@ -73,8 +94,5 @@ namespace FinanceApp.Services
 
             return user.Password == value;
         }
-
-        // Metodos que alteram o balance com increment e decrement, devem vir de transaction
-
     }
 }

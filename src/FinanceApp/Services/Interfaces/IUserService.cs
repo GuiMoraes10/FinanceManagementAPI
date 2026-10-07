@@ -5,8 +5,9 @@ namespace FinanceApp.Services.Interfaces
 {
     public interface IUserService
     {
-        public Task<User> CreateNewUser(UserRegisterDto dto);
+        public Task<User?> CreateNewUser(UserRegisterDto dto);
         public Task<User?> GetUserById(string id);
+        public Task<User?> GetUserByUserName(string userName);
         public Task<bool> DeleteUserAsync(string id);
         public Task<User?> UpdateUser(string id, UserUpdateDto dto);
         public Task<bool> SetUserBalance(string id, decimal value);
