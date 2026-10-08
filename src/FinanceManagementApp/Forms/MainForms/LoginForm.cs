@@ -49,23 +49,31 @@ namespace FinanceManagementApp.Forms
 
         private async void LoginBtn_Click(object sender, EventArgs e)
         {
-            var user = await controller.LoginUser(UserTextBox.Text, PasswordTextBox.Text);
+            try
+            {
+                var user = await controller.LoginUser(UserTextBox.Text, PasswordTextBox.Text);
 
-            if (user != null)
-            {
-                AuthenticatedUser = user;
-                MessagePopup.Show("Bem vindo!", "Login realizado com sucesso");
-                DialogResult = DialogResult.OK;
+                if (user != null)
+                {
+                    AuthenticatedUser = user;
+                    MessagePopup.Show("Bem vindo!", "Login realizado com sucesso");
+                    DialogResult = DialogResult.OK;
+                }
+                else
+                {
+                    MessagePopup.Show("Erro", "Usuário ou senha incorretos");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                MessagePopup.Show("Erro", "Usuário ou senha incorretos");
+                MessagePopup.Show("Erro", ex.Message);
             }
         }
 
         private void RegisterBtn_Click(object sender, EventArgs e)
         {
-
+            RegisterPopup registerPopup = new();
+            registerPopup.Show();
         }
 
         private void PasswordTextBox_KeyDown(object sender, KeyEventArgs e)

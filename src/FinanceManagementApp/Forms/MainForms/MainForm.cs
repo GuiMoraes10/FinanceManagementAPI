@@ -14,6 +14,7 @@ namespace FinanceManagementApp
             mainButtons = [DashboardBtn, TransactionsBtn, ScheduledTransactionsBtn, InvestmentsBtn, ProjectionsBtn, SettingsBtn];
 
             user = loginUser;
+            UsernameLabel.Text = user.UserName;
 
             OpenFormInPanel(new Home(user.Name));
         }

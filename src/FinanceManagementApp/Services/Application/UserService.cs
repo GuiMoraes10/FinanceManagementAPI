@@ -18,5 +18,10 @@ namespace FinanceManagementApp.Services.Application
 
             return null;
         }
+
+        public async Task<bool> RegisterUser(string name, string userName, string password)
+        {
+            return await apiService.RegisterUser(name, userName, password);
+        }
     }
 }

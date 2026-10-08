@@ -93,7 +93,7 @@
             OkBtn.FlatStyle = FlatStyle.Flat;
             OkBtn.Font = new Font("Bahnschrift", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             OkBtn.ForeColor = Color.FromArgb(241, 241, 241);
-            OkBtn.Location = new Point(141, 141);
+            OkBtn.Location = new Point(145, 137);
             OkBtn.Name = "OkBtn";
             OkBtn.Size = new Size(75, 27);
             OkBtn.TabIndex = 10;
@@ -103,12 +103,11 @@
             // 
             // MessageLabel
             // 
-            MessageLabel.AutoSize = true;
             MessageLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
             MessageLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            MessageLabel.Location = new Point(79, 74);
+            MessageLabel.Location = new Point(28, 74);
             MessageLabel.Name = "MessageLabel";
-            MessageLabel.Size = new Size(205, 19);
+            MessageLabel.Size = new Size(310, 19);
             MessageLabel.TabIndex = 13;
             MessageLabel.Text = "Texto do TextBox personalizado";
             MessageLabel.TextAlign = ContentAlignment.MiddleCenter;
@@ -129,7 +128,6 @@
             TopPanel.ResumeLayout(false);
             TopPanel.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion

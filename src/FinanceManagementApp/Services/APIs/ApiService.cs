@@ -20,6 +20,18 @@ namespace FinanceManagementApp.Services.APIs
             return await httpService.AzureRequestPost(Address, "/user/login", dto);
         }
 
+        public async Task<bool> RegisterUser(string name, string username, string password)
+        {
+            UserRegisterDto dto = new()
+            {
+                Name = name,
+                UserName = username,
+                Password = password
+            };
+
+            return await httpService.AzureRequestPost(Address, "/user", dto);
+        }
+
         public async Task<User?> GetUserByUserName(string username)
         {
             username = username.Trim().ToLowerInvariant();

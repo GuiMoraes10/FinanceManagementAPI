@@ -19,9 +19,21 @@ namespace FinanceManagementApp.Controllers
             return await userService.LoginUser(userName, password);
         }
 
-        public async Task<bool> RegisterUser(string userName, string password)
+        public async Task<bool> RegisterUser(string name, string userName, string password, string passwordConfirmation)
         {
-            return false;
+            if (!InputValidationService.LoginInputIsValid(userName))
+                throw new ArgumentException("Nome de usuário inválido");
+
+            if (!InputValidationService.LoginInputIsValid(password))
+                throw new ArgumentException("Senha inválida");
+
+            if (!InputValidationService.NameValueIsValid(name))
+                throw new ArgumentException("Nome inválido");
+
+            if (password != passwordConfirmation)
+                throw new ArgumentException("As senhas não coincidem");
+
+            return await userService.RegisterUser(name, userName, password);
         }
     }
 }

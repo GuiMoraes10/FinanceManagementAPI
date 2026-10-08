@@ -1,10 +1,21 @@
-﻿namespace FinanceManagementApp.Services.Auxiliar
+﻿using System.Text.RegularExpressions;
+
+namespace FinanceManagementApp.Services.Auxiliar
 {
     public static class InputValidationService
     {
-        public static bool LoginInputIsValid(string userName)
+        public static bool LoginInputIsValid(string input)
         {
-            if (string.IsNullOrWhiteSpace(userName) || userName.Contains('/') || userName.Contains(' '))
+            if (string.IsNullOrWhiteSpace(input) || Regex.IsMatch(input, @"[^\p{L}\p{N}_-]") || input.Contains(' '))
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public static bool NameValueIsValid(string input)
+        {
+            if (string.IsNullOrEmpty(input) || !input.All(char.IsLetter))
             {
                 return false;
             }
