@@ -23,5 +23,10 @@ namespace FinanceManagementApp.Services.Application
         {
             return await apiService.RegisterUser(name, userName, password);
         }
+
+        public async Task<User?> GetUser(string id)
+        {
+            return await apiService.GetUserById(id);
+        }
     }
 }

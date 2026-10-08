@@ -43,5 +43,45 @@ namespace FinanceManagementApp.Services.APIs
 
             return JsonConvert.DeserializeObject<User>(result);
         }
+
+        public async Task<User?> GetUserById(string id)
+        {
+            var result = await httpService.AzureRequestGet(Address, "/user/" + id);
+
+            if (string.IsNullOrEmpty(result))
+                return null;
+
+            return JsonConvert.DeserializeObject<User>(result);
+        }
+
+        public async Task<List<ScheduledTransaction>?> GetScheduledTransactionsByUserId(string userId)
+        {
+            var result = await httpService.AzureRequestGet(Address, "/scheduledtransaction/" + userId);
+
+            if (string.IsNullOrEmpty(result))
+                return null;
+
+            return JsonConvert.DeserializeObject<List<ScheduledTransaction>>(result);
+        }
+
+        public async Task<List<Investment>?> GetInvestmentsByUserId(string userId)
+        {
+            var result = await httpService.AzureRequestGet(Address, "/investment/" + userId);
+
+            if (string.IsNullOrEmpty(result))
+                return null;
+
+            return JsonConvert.DeserializeObject<List<Investment>>(result);
+        }
+
+        public async Task<List<Transaction>?> GetTransactionsByUserId(string userId)
+        {
+            var result = await httpService.AzureRequestGet(Address, "/transaction/" + userId);
+
+            if (string.IsNullOrEmpty(result))
+                return null;
+
+            return JsonConvert.DeserializeObject<List<Transaction>>(result);
+        }
     }
 }

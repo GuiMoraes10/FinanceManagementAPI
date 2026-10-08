@@ -49,7 +49,7 @@
             LastTransactionsRtb = new RichTextBox();
             LastTransactionsLabel = new Label();
             panel4 = new Panel();
-            NextScheduledRtb = new RichTextBox();
+            BiggestScheduledRtb = new RichTextBox();
             NextScheduledLabel = new Label();
             BalancePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)EditBalancePb).BeginInit();
@@ -77,7 +77,7 @@
             // 
             EditBalancePb.Cursor = Cursors.Hand;
             EditBalancePb.Image = (Image)resources.GetObject("EditBalancePb.Image");
-            EditBalancePb.Location = new Point(6, 29);
+            EditBalancePb.Location = new Point(8, 26);
             EditBalancePb.Name = "EditBalancePb";
             EditBalancePb.Size = new Size(25, 22);
             EditBalancePb.SizeMode = PictureBoxSizeMode.Zoom;
@@ -86,24 +86,24 @@
             // 
             // BalanceValueLabel
             // 
-            BalanceValueLabel.AutoSize = true;
-            BalanceValueLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
+            BalanceValueLabel.Dock = DockStyle.Fill;
+            BalanceValueLabel.Font = new Font("Bahnschrift SemiCondensed", 14F);
             BalanceValueLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            BalanceValueLabel.Location = new Point(34, 30);
+            BalanceValueLabel.Location = new Point(0, 26);
             BalanceValueLabel.Name = "BalanceValueLabel";
-            BalanceValueLabel.Size = new Size(91, 22);
+            BalanceValueLabel.Size = new Size(163, 46);
             BalanceValueLabel.TabIndex = 7;
             BalanceValueLabel.Text = "R$ 0.000,00";
             BalanceValueLabel.TextAlign = ContentAlignment.TopCenter;
             // 
             // BalanceLabel
             // 
-            BalanceLabel.AutoSize = true;
-            BalanceLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
+            BalanceLabel.Dock = DockStyle.Top;
+            BalanceLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
             BalanceLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            BalanceLabel.Location = new Point(41, 4);
+            BalanceLabel.Location = new Point(0, 0);
             BalanceLabel.Name = "BalanceLabel";
-            BalanceLabel.Size = new Size(81, 19);
+            BalanceLabel.Size = new Size(163, 26);
             BalanceLabel.TabIndex = 6;
             BalanceLabel.Text = "Saldo atual";
             BalanceLabel.TextAlign = ContentAlignment.TopCenter;
@@ -121,24 +121,24 @@
             // 
             // IncomingsValueLabel
             // 
-            IncomingsValueLabel.AutoSize = true;
-            IncomingsValueLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
+            IncomingsValueLabel.Dock = DockStyle.Fill;
+            IncomingsValueLabel.Font = new Font("Bahnschrift SemiCondensed", 14F);
             IncomingsValueLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            IncomingsValueLabel.Location = new Point(34, 30);
+            IncomingsValueLabel.Location = new Point(0, 30);
             IncomingsValueLabel.Name = "IncomingsValueLabel";
-            IncomingsValueLabel.Size = new Size(91, 22);
+            IncomingsValueLabel.Size = new Size(163, 42);
             IncomingsValueLabel.TabIndex = 8;
             IncomingsValueLabel.Text = "R$ 0.000,00";
             IncomingsValueLabel.TextAlign = ContentAlignment.TopCenter;
             // 
             // IncomingsLabel
             // 
-            IncomingsLabel.AutoSize = true;
-            IncomingsLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
+            IncomingsLabel.Dock = DockStyle.Top;
+            IncomingsLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
             IncomingsLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            IncomingsLabel.Location = new Point(50, 4);
+            IncomingsLabel.Location = new Point(0, 0);
             IncomingsLabel.Name = "IncomingsLabel";
-            IncomingsLabel.Size = new Size(63, 19);
+            IncomingsLabel.Size = new Size(163, 30);
             IncomingsLabel.TabIndex = 7;
             IncomingsLabel.Text = "Receitas";
             IncomingsLabel.TextAlign = ContentAlignment.TopCenter;
@@ -156,24 +156,24 @@
             // 
             // ExpensesValueLabel
             // 
-            ExpensesValueLabel.AutoSize = true;
-            ExpensesValueLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
+            ExpensesValueLabel.Dock = DockStyle.Fill;
+            ExpensesValueLabel.Font = new Font("Bahnschrift SemiCondensed", 14F);
             ExpensesValueLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            ExpensesValueLabel.Location = new Point(34, 30);
+            ExpensesValueLabel.Location = new Point(0, 30);
             ExpensesValueLabel.Name = "ExpensesValueLabel";
-            ExpensesValueLabel.Size = new Size(91, 22);
+            ExpensesValueLabel.Size = new Size(163, 42);
             ExpensesValueLabel.TabIndex = 9;
             ExpensesValueLabel.Text = "R$ 0.000,00";
             ExpensesValueLabel.TextAlign = ContentAlignment.TopCenter;
             // 
             // ExpensesLabel
             // 
-            ExpensesLabel.AutoSize = true;
-            ExpensesLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
+            ExpensesLabel.Dock = DockStyle.Top;
+            ExpensesLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
             ExpensesLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            ExpensesLabel.Location = new Point(47, 4);
+            ExpensesLabel.Location = new Point(0, 0);
             ExpensesLabel.Name = "ExpensesLabel";
-            ExpensesLabel.Size = new Size(69, 19);
+            ExpensesLabel.Size = new Size(163, 30);
             ExpensesLabel.TabIndex = 8;
             ExpensesLabel.Text = "Despesas";
             ExpensesLabel.TextAlign = ContentAlignment.TopCenter;
@@ -191,24 +191,24 @@
             // 
             // BalanceProjectionValueLabel
             // 
-            BalanceProjectionValueLabel.AutoSize = true;
-            BalanceProjectionValueLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
+            BalanceProjectionValueLabel.Dock = DockStyle.Fill;
+            BalanceProjectionValueLabel.Font = new Font("Bahnschrift SemiCondensed", 14F);
             BalanceProjectionValueLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            BalanceProjectionValueLabel.Location = new Point(68, 30);
+            BalanceProjectionValueLabel.Location = new Point(0, 30);
             BalanceProjectionValueLabel.Name = "BalanceProjectionValueLabel";
-            BalanceProjectionValueLabel.Size = new Size(91, 22);
+            BalanceProjectionValueLabel.Size = new Size(234, 42);
             BalanceProjectionValueLabel.TabIndex = 8;
             BalanceProjectionValueLabel.Text = "R$ 0.000,00";
             BalanceProjectionValueLabel.TextAlign = ContentAlignment.TopCenter;
             // 
             // BalanceProjectionLabel
             // 
-            BalanceProjectionLabel.AutoSize = true;
-            BalanceProjectionLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
+            BalanceProjectionLabel.Dock = DockStyle.Top;
+            BalanceProjectionLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
             BalanceProjectionLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            BalanceProjectionLabel.Location = new Point(62, 4);
+            BalanceProjectionLabel.Location = new Point(0, 0);
             BalanceProjectionLabel.Name = "BalanceProjectionLabel";
-            BalanceProjectionLabel.Size = new Size(108, 19);
+            BalanceProjectionLabel.Size = new Size(234, 30);
             BalanceProjectionLabel.TabIndex = 7;
             BalanceProjectionLabel.Text = "Saldo projetado";
             BalanceProjectionLabel.TextAlign = ContentAlignment.TopCenter;
@@ -226,24 +226,24 @@
             // 
             // InvestmentsValueLabel
             // 
-            InvestmentsValueLabel.AutoSize = true;
-            InvestmentsValueLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
+            InvestmentsValueLabel.Dock = DockStyle.Fill;
+            InvestmentsValueLabel.Font = new Font("Bahnschrift SemiCondensed", 14F);
             InvestmentsValueLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            InvestmentsValueLabel.Location = new Point(68, 30);
+            InvestmentsValueLabel.Location = new Point(0, 30);
             InvestmentsValueLabel.Name = "InvestmentsValueLabel";
-            InvestmentsValueLabel.Size = new Size(91, 22);
+            InvestmentsValueLabel.Size = new Size(234, 42);
             InvestmentsValueLabel.TabIndex = 9;
             InvestmentsValueLabel.Text = "R$ 0.000,00";
             InvestmentsValueLabel.TextAlign = ContentAlignment.TopCenter;
             // 
             // InvestmentsLabel
             // 
-            InvestmentsLabel.AutoSize = true;
-            InvestmentsLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
+            InvestmentsLabel.Dock = DockStyle.Top;
+            InvestmentsLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
             InvestmentsLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            InvestmentsLabel.Location = new Point(69, 4);
+            InvestmentsLabel.Location = new Point(0, 0);
             InvestmentsLabel.Name = "InvestmentsLabel";
-            InvestmentsLabel.Size = new Size(97, 19);
+            InvestmentsLabel.Size = new Size(234, 30);
             InvestmentsLabel.TabIndex = 8;
             InvestmentsLabel.Text = "Investimentos";
             InvestmentsLabel.TextAlign = ContentAlignment.TopCenter;
@@ -254,29 +254,32 @@
             panel3.BorderStyle = BorderStyle.FixedSingle;
             panel3.Controls.Add(LastTransactionsRtb);
             panel3.Controls.Add(LastTransactionsLabel);
-            panel3.Location = new Point(87, 295);
+            panel3.Location = new Point(41, 295);
             panel3.Name = "panel3";
-            panel3.Size = new Size(236, 166);
+            panel3.Size = new Size(308, 168);
             panel3.TabIndex = 2;
             // 
             // LastTransactionsRtb
             // 
             LastTransactionsRtb.BackColor = Color.FromArgb(50, 50, 50);
             LastTransactionsRtb.BorderStyle = BorderStyle.None;
-            LastTransactionsRtb.Location = new Point(24, 34);
+            LastTransactionsRtb.Font = new Font("Bahnschrift SemiCondensed", 11F);
+            LastTransactionsRtb.ForeColor = Color.FromArgb(241, 241, 241);
+            LastTransactionsRtb.Location = new Point(37, 34);
             LastTransactionsRtb.Name = "LastTransactionsRtb";
-            LastTransactionsRtb.Size = new Size(188, 119);
+            LastTransactionsRtb.ReadOnly = true;
+            LastTransactionsRtb.Size = new Size(251, 119);
             LastTransactionsRtb.TabIndex = 11;
             LastTransactionsRtb.Text = "";
             // 
             // LastTransactionsLabel
             // 
-            LastTransactionsLabel.AutoSize = true;
-            LastTransactionsLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
+            LastTransactionsLabel.Dock = DockStyle.Top;
+            LastTransactionsLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
             LastTransactionsLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            LastTransactionsLabel.Location = new Point(53, 4);
+            LastTransactionsLabel.Location = new Point(0, 0);
             LastTransactionsLabel.Name = "LastTransactionsLabel";
-            LastTransactionsLabel.Size = new Size(132, 19);
+            LastTransactionsLabel.Size = new Size(306, 31);
             LastTransactionsLabel.TabIndex = 8;
             LastTransactionsLabel.Text = "Ultimas transações";
             LastTransactionsLabel.TextAlign = ContentAlignment.TopCenter;
@@ -285,33 +288,36 @@
             // 
             panel4.BackColor = Color.FromArgb(50, 50, 50);
             panel4.BorderStyle = BorderStyle.FixedSingle;
-            panel4.Controls.Add(NextScheduledRtb);
+            panel4.Controls.Add(BiggestScheduledRtb);
             panel4.Controls.Add(NextScheduledLabel);
-            panel4.Location = new Point(389, 295);
+            panel4.Location = new Point(369, 295);
             panel4.Name = "panel4";
-            panel4.Size = new Size(236, 166);
+            panel4.Size = new Size(308, 168);
             panel4.TabIndex = 3;
             // 
-            // NextScheduledRtb
+            // BiggestScheduledRtb
             // 
-            NextScheduledRtb.BackColor = Color.FromArgb(50, 50, 50);
-            NextScheduledRtb.BorderStyle = BorderStyle.None;
-            NextScheduledRtb.Location = new Point(24, 34);
-            NextScheduledRtb.Name = "NextScheduledRtb";
-            NextScheduledRtb.Size = new Size(188, 119);
-            NextScheduledRtb.TabIndex = 10;
-            NextScheduledRtb.Text = "";
+            BiggestScheduledRtb.BackColor = Color.FromArgb(50, 50, 50);
+            BiggestScheduledRtb.BorderStyle = BorderStyle.None;
+            BiggestScheduledRtb.Font = new Font("Bahnschrift SemiCondensed", 11F);
+            BiggestScheduledRtb.ForeColor = Color.FromArgb(241, 241, 241);
+            BiggestScheduledRtb.Location = new Point(37, 34);
+            BiggestScheduledRtb.Name = "BiggestScheduledRtb";
+            BiggestScheduledRtb.ReadOnly = true;
+            BiggestScheduledRtb.Size = new Size(251, 119);
+            BiggestScheduledRtb.TabIndex = 10;
+            BiggestScheduledRtb.Text = "";
             // 
             // NextScheduledLabel
             // 
-            NextScheduledLabel.AutoSize = true;
-            NextScheduledLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
+            NextScheduledLabel.Dock = DockStyle.Top;
+            NextScheduledLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
             NextScheduledLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            NextScheduledLabel.Location = new Point(35, 4);
+            NextScheduledLabel.Location = new Point(0, 0);
             NextScheduledLabel.Name = "NextScheduledLabel";
-            NextScheduledLabel.Size = new Size(164, 19);
+            NextScheduledLabel.Size = new Size(306, 31);
             NextScheduledLabel.TabIndex = 9;
-            NextScheduledLabel.Text = "Próximos agendamentos";
+            NextScheduledLabel.Text = "Maiores agendamentos";
             NextScheduledLabel.TextAlign = ContentAlignment.TopCenter;
             // 
             // Dashboard
@@ -335,20 +341,13 @@
             Name = "Dashboard";
             Text = "Dashboard";
             BalancePanel.ResumeLayout(false);
-            BalancePanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)EditBalancePb).EndInit();
             IncomingsPanel.ResumeLayout(false);
-            IncomingsPanel.PerformLayout();
             ExpensesPanel.ResumeLayout(false);
-            ExpensesPanel.PerformLayout();
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
             panel2.ResumeLayout(false);
-            panel2.PerformLayout();
             panel3.ResumeLayout(false);
-            panel3.PerformLayout();
             panel4.ResumeLayout(false);
-            panel4.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -374,7 +373,7 @@
         private Label BalanceProjectionValueLabel;
         private Label InvestmentsValueLabel;
         private RichTextBox LastTransactionsRtb;
-        private RichTextBox NextScheduledRtb;
+        private RichTextBox BiggestScheduledRtb;
         private PictureBox EditBalancePb;
     }
 }

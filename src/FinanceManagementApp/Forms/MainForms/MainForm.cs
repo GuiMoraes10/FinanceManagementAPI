@@ -7,6 +7,7 @@ namespace FinanceManagementApp
     public partial class MainForm : Form
     {
         private User user;
+
         public MainForm(User loginUser)
         {
             InitializeComponent();
@@ -88,7 +89,7 @@ namespace FinanceManagementApp
 
         private void DashboardBtn_Click(object sender, EventArgs e)
         {
-            OpenFormInPanel(new Dashboard());
+            OpenFormInPanel(new Dashboard(user.Id));
             SetDefaultButtonsCollor();
             DashboardBtn.BackColor = Color.FromArgb(60, 60, 60);
         }
