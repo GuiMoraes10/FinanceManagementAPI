@@ -1,10 +1,13 @@
-﻿using System.Runtime.InteropServices;
+﻿using FinanceManagementApp.Controllers;
+using System.Runtime.InteropServices;
 
 namespace FinanceManagementApp.Forms.PopUps
 {
-    public partial class MessagePopup : Form
+    public partial class TransactionRegisterPopup : Form
     {
-        public MessagePopup()
+        private readonly TransactionsController controller = new();
+
+        public TransactionRegisterPopup()
         {
             InitializeComponent();
         }
@@ -18,24 +21,6 @@ namespace FinanceManagementApp.Forms.PopUps
         private const int WM_NCLBUTTONDOWN = 0xA1;
         private const int HTCAPTION = 0x2;
 
-        public static void Show(string title, string text)
-        {
-            using var msgBox = new MessagePopup();
-
-            msgBox.TitleLabel.Text = title;
-            msgBox.MessageLabel.Text = text;
-
-            msgBox.BringToFront();   // Garante que fique na frente
-            msgBox.Activate();       // Garante que receba o foco
-
-            msgBox.ShowDialog();
-        }
-
-        private void CloseBtn_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void TopPanel_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
@@ -45,9 +30,14 @@ namespace FinanceManagementApp.Forms.PopUps
             }
         }
 
-        private void OkBtn_Click(object sender, EventArgs e)
+        private void CloseBtn_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void RegisterBtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

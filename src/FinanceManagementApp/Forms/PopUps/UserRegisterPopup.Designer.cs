@@ -1,6 +1,6 @@
 ﻿namespace FinanceManagementApp.Forms.PopUps
 {
-    partial class RegisterPopup
+    partial class UserRegisterPopup
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterPopup));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserRegisterPopup));
             PasswordLabel = new Label();
             UserLabel = new Label();
             RegisterBtn = new Button();
@@ -189,16 +189,17 @@
             // 
             // TitleLabel
             // 
-            TitleLabel.AutoSize = true;
+            TitleLabel.Dock = DockStyle.Top;
             TitleLabel.Font = new Font("Bahnschrift SemiCondensed", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             TitleLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            TitleLabel.Location = new Point(108, 38);
+            TitleLabel.Location = new Point(0, 29);
             TitleLabel.Name = "TitleLabel";
-            TitleLabel.Size = new Size(153, 23);
+            TitleLabel.Size = new Size(365, 32);
             TitleLabel.TabIndex = 17;
             TitleLabel.Text = "Registro de usuário";
+            TitleLabel.TextAlign = ContentAlignment.BottomCenter;
             // 
-            // RegisterPopup
+            // UserRegisterPopup
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -217,7 +218,7 @@
             Controls.Add(UserTextBox);
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "RegisterPopup";
+            Name = "UserRegisterPopup";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "UserRegisterMessageBox";
             TopPanel.ResumeLayout(false);

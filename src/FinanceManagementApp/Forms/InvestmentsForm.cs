@@ -1,8 +1,8 @@
 ﻿namespace FinanceManagementApp.Forms
 {
-    public partial class FinancialProjection : Form
+    public partial class InvestmentsForm : Form
     {
-        public FinancialProjection()
+        public InvestmentsForm()
         {
             InitializeComponent();
         }

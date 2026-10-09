@@ -1,6 +1,6 @@
 ﻿namespace FinanceManagementApp.Forms
 {
-    partial class ScheduledTransactions
+    partial class ScheduledTransactionsForm
     {
         /// <summary>
         /// Required designer variable.
@@ -32,7 +32,7 @@
             DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ScheduledTransactions));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ScheduledTransactionsForm));
             TransactionsDgv = new DataGridView();
             ResultValueLabel = new Label();
             ResultLabel = new Label();

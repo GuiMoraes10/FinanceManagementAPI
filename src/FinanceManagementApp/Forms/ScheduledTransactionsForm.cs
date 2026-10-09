@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FinanceManagementApp.Forms
 {
-    public partial class Settings : Form
+    public partial class ScheduledTransactionsForm : Form
     {
-        public Settings()
+        public ScheduledTransactionsForm()
         {
             InitializeComponent();
         }

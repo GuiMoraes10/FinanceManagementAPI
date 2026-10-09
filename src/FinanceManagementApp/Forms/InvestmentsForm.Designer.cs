@@ -1,6 +1,6 @@
 ﻿namespace FinanceManagementApp.Forms
 {
-    partial class FinancialProjection
+    partial class InvestmentsForm
     {
         /// <summary>
         /// Required designer variable.
@@ -32,104 +32,32 @@
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FinancialProjection));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InvestmentsForm));
+            BalancePanel = new Panel();
+            BalanceValueLabel = new Label();
+            BalanceLabel = new Label();
             panel1 = new Panel();
             YearProjectionValueLabel = new Label();
             YearProjectionLabel = new Label();
             panel2 = new Panel();
             MonthProjectionValueLabel = new Label();
             MonthProjectionLabel = new Label();
-            BalancePanel = new Panel();
-            BalanceValueLabel = new Label();
-            BalanceLabel = new Label();
+            DepositBtn = new Button();
+            DeleteBtn = new Button();
+            EditBtn = new Button();
+            WithdrawBtn = new Button();
+            NewInvestmentBtn = new Button();
             DataDgv = new DataGridView();
-            panel4 = new Panel();
-            label5 = new Label();
-            label6 = new Label();
-            panel3 = new Panel();
-            label1 = new Label();
-            label2 = new Label();
-            colMonth = new DataGridViewTextBoxColumn();
+            colName = new DataGridViewTextBoxColumn();
             colBalance = new DataGridViewTextBoxColumn();
             colIncoming = new DataGridViewTextBoxColumn();
-            colExpense = new DataGridViewTextBoxColumn();
+            colMonthProj = new DataGridViewTextBoxColumn();
+            colYearProj = new DataGridViewTextBoxColumn();
+            BalancePanel.SuspendLayout();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
-            BalancePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)DataDgv).BeginInit();
-            panel4.SuspendLayout();
-            panel3.SuspendLayout();
             SuspendLayout();
-            // 
-            // panel1
-            // 
-            panel1.BackColor = Color.FromArgb(50, 50, 50);
-            panel1.BorderStyle = BorderStyle.FixedSingle;
-            panel1.Controls.Add(YearProjectionValueLabel);
-            panel1.Controls.Add(YearProjectionLabel);
-            panel1.Location = new Point(517, 48);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(165, 74);
-            panel1.TabIndex = 12;
-            // 
-            // YearProjectionValueLabel
-            // 
-            YearProjectionValueLabel.AutoSize = true;
-            YearProjectionValueLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
-            YearProjectionValueLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            YearProjectionValueLabel.Location = new Point(34, 30);
-            YearProjectionValueLabel.Name = "YearProjectionValueLabel";
-            YearProjectionValueLabel.Size = new Size(91, 22);
-            YearProjectionValueLabel.TabIndex = 8;
-            YearProjectionValueLabel.Text = "R$ 0.000,00";
-            YearProjectionValueLabel.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // YearProjectionLabel
-            // 
-            YearProjectionLabel.AutoSize = true;
-            YearProjectionLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
-            YearProjectionLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            YearProjectionLabel.Location = new Point(48, 4);
-            YearProjectionLabel.Name = "YearProjectionLabel";
-            YearProjectionLabel.Size = new Size(69, 19);
-            YearProjectionLabel.TabIndex = 7;
-            YearProjectionLabel.Text = "Despesas";
-            YearProjectionLabel.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.FromArgb(50, 50, 50);
-            panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel2.Controls.Add(MonthProjectionValueLabel);
-            panel2.Controls.Add(MonthProjectionLabel);
-            panel2.Location = new Point(273, 48);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(165, 74);
-            panel2.TabIndex = 13;
-            // 
-            // MonthProjectionValueLabel
-            // 
-            MonthProjectionValueLabel.AutoSize = true;
-            MonthProjectionValueLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
-            MonthProjectionValueLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            MonthProjectionValueLabel.Location = new Point(34, 30);
-            MonthProjectionValueLabel.Name = "MonthProjectionValueLabel";
-            MonthProjectionValueLabel.Size = new Size(91, 22);
-            MonthProjectionValueLabel.TabIndex = 8;
-            MonthProjectionValueLabel.Text = "R$ 0.000,00";
-            MonthProjectionValueLabel.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // MonthProjectionLabel
-            // 
-            MonthProjectionLabel.AutoSize = true;
-            MonthProjectionLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
-            MonthProjectionLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            MonthProjectionLabel.Location = new Point(51, 4);
-            MonthProjectionLabel.Name = "MonthProjectionLabel";
-            MonthProjectionLabel.Size = new Size(63, 19);
-            MonthProjectionLabel.TabIndex = 7;
-            MonthProjectionLabel.Text = "Receitas";
-            MonthProjectionLabel.TextAlign = ContentAlignment.TopCenter;
             // 
             // BalancePanel
             // 
@@ -137,10 +65,10 @@
             BalancePanel.BorderStyle = BorderStyle.FixedSingle;
             BalancePanel.Controls.Add(BalanceValueLabel);
             BalancePanel.Controls.Add(BalanceLabel);
-            BalancePanel.Location = new Point(33, 48);
+            BalancePanel.Location = new Point(32, 41);
             BalancePanel.Name = "BalancePanel";
             BalancePanel.Size = new Size(165, 74);
-            BalancePanel.TabIndex = 11;
+            BalancePanel.TabIndex = 2;
             // 
             // BalanceValueLabel
             // 
@@ -159,12 +87,167 @@
             BalanceLabel.AutoSize = true;
             BalanceLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
             BalanceLabel.ForeColor = Color.FromArgb(241, 241, 241);
-            BalanceLabel.Location = new Point(61, 4);
+            BalanceLabel.Location = new Point(46, 4);
             BalanceLabel.Name = "BalanceLabel";
-            BalanceLabel.Size = new Size(44, 19);
+            BalanceLabel.Size = new Size(66, 19);
             BalanceLabel.TabIndex = 6;
-            BalanceLabel.Text = "Saldo";
+            BalanceLabel.Text = "Investido";
             BalanceLabel.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(50, 50, 50);
+            panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(YearProjectionValueLabel);
+            panel1.Controls.Add(YearProjectionLabel);
+            panel1.Location = new Point(516, 41);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(165, 74);
+            panel1.TabIndex = 9;
+            // 
+            // YearProjectionValueLabel
+            // 
+            YearProjectionValueLabel.AutoSize = true;
+            YearProjectionValueLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
+            YearProjectionValueLabel.ForeColor = Color.FromArgb(241, 241, 241);
+            YearProjectionValueLabel.Location = new Point(34, 30);
+            YearProjectionValueLabel.Name = "YearProjectionValueLabel";
+            YearProjectionValueLabel.Size = new Size(91, 22);
+            YearProjectionValueLabel.TabIndex = 8;
+            YearProjectionValueLabel.Text = "R$ 0.000,00";
+            YearProjectionValueLabel.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // YearProjectionLabel
+            // 
+            YearProjectionLabel.AutoSize = true;
+            YearProjectionLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
+            YearProjectionLabel.ForeColor = Color.FromArgb(241, 241, 241);
+            YearProjectionLabel.Location = new Point(15, 4);
+            YearProjectionLabel.Name = "YearProjectionLabel";
+            YearProjectionLabel.Size = new Size(133, 19);
+            YearProjectionLabel.TabIndex = 7;
+            YearProjectionLabel.Text = "Projeção (12 meses)";
+            YearProjectionLabel.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.FromArgb(50, 50, 50);
+            panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(MonthProjectionValueLabel);
+            panel2.Controls.Add(MonthProjectionLabel);
+            panel2.Location = new Point(272, 41);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(165, 74);
+            panel2.TabIndex = 10;
+            // 
+            // MonthProjectionValueLabel
+            // 
+            MonthProjectionValueLabel.AutoSize = true;
+            MonthProjectionValueLabel.Font = new Font("Bahnschrift SemiCondensed", 13F);
+            MonthProjectionValueLabel.ForeColor = Color.FromArgb(241, 241, 241);
+            MonthProjectionValueLabel.Location = new Point(34, 30);
+            MonthProjectionValueLabel.Name = "MonthProjectionValueLabel";
+            MonthProjectionValueLabel.Size = new Size(91, 22);
+            MonthProjectionValueLabel.TabIndex = 8;
+            MonthProjectionValueLabel.Text = "R$ 0.000,00";
+            MonthProjectionValueLabel.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // MonthProjectionLabel
+            // 
+            MonthProjectionLabel.AutoSize = true;
+            MonthProjectionLabel.Font = new Font("Bahnschrift SemiCondensed", 12F);
+            MonthProjectionLabel.ForeColor = Color.FromArgb(241, 241, 241);
+            MonthProjectionLabel.Location = new Point(30, 4);
+            MonthProjectionLabel.Name = "MonthProjectionLabel";
+            MonthProjectionLabel.Size = new Size(103, 19);
+            MonthProjectionLabel.TabIndex = 7;
+            MonthProjectionLabel.Text = "Projeção (mês)";
+            MonthProjectionLabel.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // DepositBtn
+            // 
+            DepositBtn.BackColor = Color.FromArgb(70, 70, 74);
+            DepositBtn.Cursor = Cursors.Hand;
+            DepositBtn.FlatAppearance.BorderColor = Color.FromArgb(85, 85, 90);
+            DepositBtn.FlatAppearance.MouseDownBackColor = Color.FromArgb(95, 95, 100);
+            DepositBtn.FlatAppearance.MouseOverBackColor = Color.FromArgb(85, 85, 90);
+            DepositBtn.FlatStyle = FlatStyle.Flat;
+            DepositBtn.Font = new Font("Bahnschrift", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            DepositBtn.ForeColor = Color.FromArgb(241, 241, 241);
+            DepositBtn.Location = new Point(32, 482);
+            DepositBtn.Name = "DepositBtn";
+            DepositBtn.Size = new Size(96, 27);
+            DepositBtn.TabIndex = 31;
+            DepositBtn.Text = "Depositar";
+            DepositBtn.UseVisualStyleBackColor = false;
+            // 
+            // DeleteBtn
+            // 
+            DeleteBtn.BackColor = Color.FromArgb(70, 70, 74);
+            DeleteBtn.Cursor = Cursors.Hand;
+            DeleteBtn.FlatAppearance.BorderColor = Color.FromArgb(85, 85, 90);
+            DeleteBtn.FlatAppearance.MouseDownBackColor = Color.FromArgb(95, 95, 100);
+            DeleteBtn.FlatAppearance.MouseOverBackColor = Color.FromArgb(85, 85, 90);
+            DeleteBtn.FlatStyle = FlatStyle.Flat;
+            DeleteBtn.Font = new Font("Bahnschrift", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            DeleteBtn.ForeColor = Color.FromArgb(241, 241, 241);
+            DeleteBtn.Location = new Point(385, 482);
+            DeleteBtn.Name = "DeleteBtn";
+            DeleteBtn.Size = new Size(96, 27);
+            DeleteBtn.TabIndex = 32;
+            DeleteBtn.Text = "Excluir";
+            DeleteBtn.UseVisualStyleBackColor = false;
+            // 
+            // EditBtn
+            // 
+            EditBtn.BackColor = Color.FromArgb(70, 70, 74);
+            EditBtn.Cursor = Cursors.Hand;
+            EditBtn.FlatAppearance.BorderColor = Color.FromArgb(85, 85, 90);
+            EditBtn.FlatAppearance.MouseDownBackColor = Color.FromArgb(95, 95, 100);
+            EditBtn.FlatAppearance.MouseOverBackColor = Color.FromArgb(85, 85, 90);
+            EditBtn.FlatStyle = FlatStyle.Flat;
+            EditBtn.Font = new Font("Bahnschrift", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            EditBtn.ForeColor = Color.FromArgb(241, 241, 241);
+            EditBtn.Location = new Point(268, 482);
+            EditBtn.Name = "EditBtn";
+            EditBtn.Size = new Size(96, 27);
+            EditBtn.TabIndex = 33;
+            EditBtn.Text = "Editar";
+            EditBtn.UseVisualStyleBackColor = false;
+            // 
+            // WithdrawBtn
+            // 
+            WithdrawBtn.BackColor = Color.FromArgb(70, 70, 74);
+            WithdrawBtn.Cursor = Cursors.Hand;
+            WithdrawBtn.FlatAppearance.BorderColor = Color.FromArgb(85, 85, 90);
+            WithdrawBtn.FlatAppearance.MouseDownBackColor = Color.FromArgb(95, 95, 100);
+            WithdrawBtn.FlatAppearance.MouseOverBackColor = Color.FromArgb(85, 85, 90);
+            WithdrawBtn.FlatStyle = FlatStyle.Flat;
+            WithdrawBtn.Font = new Font("Bahnschrift", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            WithdrawBtn.ForeColor = Color.FromArgb(241, 241, 241);
+            WithdrawBtn.Location = new Point(149, 482);
+            WithdrawBtn.Name = "WithdrawBtn";
+            WithdrawBtn.Size = new Size(96, 27);
+            WithdrawBtn.TabIndex = 34;
+            WithdrawBtn.Text = "Retirar";
+            WithdrawBtn.UseVisualStyleBackColor = false;
+            // 
+            // NewInvestmentBtn
+            // 
+            NewInvestmentBtn.BackColor = Color.FromArgb(70, 70, 74);
+            NewInvestmentBtn.Cursor = Cursors.Hand;
+            NewInvestmentBtn.FlatAppearance.BorderColor = Color.FromArgb(85, 85, 90);
+            NewInvestmentBtn.FlatAppearance.MouseDownBackColor = Color.FromArgb(95, 95, 100);
+            NewInvestmentBtn.FlatAppearance.MouseOverBackColor = Color.FromArgb(85, 85, 90);
+            NewInvestmentBtn.FlatStyle = FlatStyle.Flat;
+            NewInvestmentBtn.Font = new Font("Bahnschrift", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            NewInvestmentBtn.ForeColor = Color.FromArgb(241, 241, 241);
+            NewInvestmentBtn.Location = new Point(32, 137);
+            NewInvestmentBtn.Name = "NewInvestmentBtn";
+            NewInvestmentBtn.Size = new Size(139, 27);
+            NewInvestmentBtn.TabIndex = 35;
+            NewInvestmentBtn.Text = "+ Novo investimento";
+            NewInvestmentBtn.UseVisualStyleBackColor = false;
             // 
             // DataDgv
             // 
@@ -188,7 +271,7 @@
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
             DataDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             DataDgv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            DataDgv.Columns.AddRange(new DataGridViewColumn[] { colMonth, colBalance, colIncoming, colExpense });
+            DataDgv.Columns.AddRange(new DataGridViewColumn[] { colName, colBalance, colIncoming, colMonthProj, colYearProj });
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = Color.FromArgb(50, 50, 50);
             dataGridViewCellStyle3.Font = new Font("Bahnschrift SemiCondensed", 12F);
@@ -199,7 +282,7 @@
             DataDgv.DefaultCellStyle = dataGridViewCellStyle3;
             DataDgv.EnableHeadersVisualStyles = false;
             DataDgv.GridColor = Color.FromArgb(63, 63, 63);
-            DataDgv.Location = new Point(33, 169);
+            DataDgv.Location = new Point(32, 185);
             DataDgv.MultiSelect = false;
             DataDgv.Name = "DataDgv";
             DataDgv.ReadOnly = true;
@@ -214,84 +297,14 @@
             DataDgv.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             DataDgv.RowHeadersVisible = false;
             DataDgv.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            DataDgv.Size = new Size(649, 249);
-            DataDgv.TabIndex = 37;
+            DataDgv.Size = new Size(649, 280);
+            DataDgv.TabIndex = 36;
             // 
-            // panel4
+            // colName
             // 
-            panel4.BackColor = Color.FromArgb(50, 50, 50);
-            panel4.BorderStyle = BorderStyle.FixedSingle;
-            panel4.Controls.Add(label5);
-            panel4.Controls.Add(label6);
-            panel4.Location = new Point(122, 444);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(165, 74);
-            panel4.TabIndex = 38;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Bahnschrift SemiCondensed", 13F);
-            label5.ForeColor = Color.FromArgb(241, 241, 241);
-            label5.Location = new Point(34, 30);
-            label5.Name = "label5";
-            label5.Size = new Size(91, 22);
-            label5.TabIndex = 7;
-            label5.Text = "R$ 0.000,00";
-            label5.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Bahnschrift SemiCondensed", 12F);
-            label6.ForeColor = Color.FromArgb(241, 241, 241);
-            label6.Location = new Point(13, 4);
-            label6.Name = "label6";
-            label6.Size = new Size(138, 19);
-            label6.TabIndex = 6;
-            label6.Text = "Receitas x Despesas";
-            label6.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.FromArgb(50, 50, 50);
-            panel3.BorderStyle = BorderStyle.FixedSingle;
-            panel3.Controls.Add(label1);
-            panel3.Controls.Add(label2);
-            panel3.Location = new Point(394, 444);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(165, 74);
-            panel3.TabIndex = 13;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Bahnschrift SemiCondensed", 13F);
-            label1.ForeColor = Color.FromArgb(241, 241, 241);
-            label1.Location = new Point(34, 30);
-            label1.Name = "label1";
-            label1.Size = new Size(91, 22);
-            label1.TabIndex = 7;
-            label1.Text = "R$ 0.000,00";
-            label1.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Bahnschrift SemiCondensed", 12F);
-            label2.ForeColor = Color.FromArgb(241, 241, 241);
-            label2.Location = new Point(36, 4);
-            label2.Name = "label2";
-            label2.Size = new Size(93, 19);
-            label2.TabIndex = 6;
-            label2.Text = "Projeção mês";
-            label2.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // colMonth
-            // 
-            colMonth.HeaderText = "Mes";
-            colMonth.Name = "colMonth";
-            colMonth.ReadOnly = true;
+            colName.HeaderText = "Investimento";
+            colName.Name = "colName";
+            colName.ReadOnly = true;
             // 
             // colBalance
             // 
@@ -301,26 +314,35 @@
             // 
             // colIncoming
             // 
-            colIncoming.HeaderText = "Receita";
+            colIncoming.HeaderText = "Rendimento";
             colIncoming.Name = "colIncoming";
             colIncoming.ReadOnly = true;
             // 
-            // colExpense
+            // colMonthProj
             // 
-            colExpense.HeaderText = "Despesa";
-            colExpense.Name = "colExpense";
-            colExpense.ReadOnly = true;
+            colMonthProj.HeaderText = "Proj Mês";
+            colMonthProj.Name = "colMonthProj";
+            colMonthProj.ReadOnly = true;
             // 
-            // FinancialProjection
+            // colYearProj
+            // 
+            colYearProj.HeaderText = "Proj Ano";
+            colYearProj.Name = "colYearProj";
+            colYearProj.ReadOnly = true;
+            // 
+            // Investments
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(45, 45, 45);
             ClientSize = new Size(719, 539);
-            Controls.Add(panel3);
-            Controls.Add(panel4);
-            Controls.Add(DataDgv);
             Controls.Add(panel1);
+            Controls.Add(DataDgv);
+            Controls.Add(NewInvestmentBtn);
+            Controls.Add(WithdrawBtn);
+            Controls.Add(EditBtn);
+            Controls.Add(DeleteBtn);
+            Controls.Add(DepositBtn);
             Controls.Add(panel2);
             Controls.Add(BalancePanel);
             Font = new Font("Bahnschrift SemiCondensed", 12F);
@@ -328,43 +350,38 @@
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 4, 3, 4);
-            Name = "FinancialProjection";
-            Text = "FinancialProjection";
+            Name = "Investments";
+            Text = "Investments";
+            BalancePanel.ResumeLayout(false);
+            BalancePanel.PerformLayout();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            BalancePanel.ResumeLayout(false);
-            BalancePanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)DataDgv).EndInit();
-            panel4.ResumeLayout(false);
-            panel4.PerformLayout();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
-
         private Panel panel1;
         private Label YearProjectionValueLabel;
         private Label YearProjectionLabel;
-        private Panel panel2;
-        private Label MonthProjectionValueLabel;
-        private Label MonthProjectionLabel;
         private Panel BalancePanel;
         private Label BalanceValueLabel;
         private Label BalanceLabel;
+        private Panel panel2;
+        private Label MonthProjectionValueLabel;
+        private Label MonthProjectionLabel;
+        private Button DepositBtn;
+        private Button DeleteBtn;
+        private Button EditBtn;
+        private Button WithdrawBtn;
+        private Button NewInvestmentBtn;
         private DataGridView DataDgv;
-        private Panel panel4;
-        private Label label5;
-        private Label label6;
-        private Panel panel3;
-        private Label label1;
-        private Label label2;
-        private DataGridViewTextBoxColumn colMonth;
+        private DataGridViewTextBoxColumn colName;
         private DataGridViewTextBoxColumn colBalance;
         private DataGridViewTextBoxColumn colIncoming;
-        private DataGridViewTextBoxColumn colExpense;
+        private DataGridViewTextBoxColumn colMonthProj;
+        private DataGridViewTextBoxColumn colYearProj;
     }
 }

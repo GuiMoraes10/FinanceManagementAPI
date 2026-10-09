@@ -5,12 +5,12 @@ using FinanceManagementApp.Forms.PopUps;
 
 namespace FinanceManagementApp.Forms
 {
-    public partial class Dashboard : Form
+    public partial class DashboardForm : Form
     {
         private readonly DashboardController controller = new();
         private readonly string userId;
 
-        public Dashboard(string loggedUserId)
+        public DashboardForm(string loggedUserId)
         {
             InitializeComponent();
 

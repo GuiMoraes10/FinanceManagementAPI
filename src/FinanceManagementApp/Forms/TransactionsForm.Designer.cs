@@ -1,6 +1,6 @@
 ﻿namespace FinanceManagementApp.Forms
 {
-    partial class Transactions
+    partial class TransactionsForm
     {
         /// <summary>
         /// Required designer variable.
@@ -32,7 +32,7 @@
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Transactions));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TransactionsForm));
             NewTransactionBtn = new Button();
             FirstDateLabel = new Label();
             FirstDateDtp = new DateTimePicker();
@@ -50,11 +50,11 @@
             ResultValueLabel = new Label();
             ResultLabel = new Label();
             TransactionsDgv = new DataGridView();
-            colValue = new DataGridViewTextBoxColumn();
-            colType = new DataGridViewTextBoxColumn();
-            colCategory = new DataGridViewTextBoxColumn();
-            colName = new DataGridViewTextBoxColumn();
             colDate = new DataGridViewTextBoxColumn();
+            colName = new DataGridViewTextBoxColumn();
+            colCategory = new DataGridViewTextBoxColumn();
+            colType = new DataGridViewTextBoxColumn();
+            colValue = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)TransactionsDgv).BeginInit();
             SuspendLayout();
             // 
@@ -74,6 +74,7 @@
             NewTransactionBtn.TabIndex = 3;
             NewTransactionBtn.Text = "+ Nova transação";
             NewTransactionBtn.UseVisualStyleBackColor = false;
+            NewTransactionBtn.Click += NewTransactionBtn_Click;
             // 
             // FirstDateLabel
             // 
@@ -161,6 +162,7 @@
             CategoryCb.ForeColor = Color.FromArgb(241, 241, 241);
             CategoryCb.FormattingEnabled = true;
             CategoryCb.IntegralHeight = false;
+            CategoryCb.Items.AddRange(new object[] { "Conta", "Comida", "Transporte", "Lazer", "Cartão de crédito", "Investimentos", "Salário", "Outros" });
             CategoryCb.Location = new Point(124, 80);
             CategoryCb.MaxDropDownItems = 10;
             CategoryCb.Name = "CategoryCb";
@@ -194,6 +196,7 @@
             FilterBtn.TabIndex = 14;
             FilterBtn.Text = "Filtrar";
             FilterBtn.UseVisualStyleBackColor = false;
+            FilterBtn.Click += FilterBtn_Click;
             // 
             // IncomingsLabel
             // 
@@ -312,23 +315,11 @@
             TransactionsDgv.Size = new Size(649, 294);
             TransactionsDgv.TabIndex = 21;
             // 
-            // colValue
+            // colDate
             // 
-            colValue.HeaderText = "Valor";
-            colValue.Name = "colValue";
-            colValue.ReadOnly = true;
-            // 
-            // colType
-            // 
-            colType.HeaderText = "Tipo";
-            colType.Name = "colType";
-            colType.ReadOnly = true;
-            // 
-            // colCategory
-            // 
-            colCategory.HeaderText = "Categoria";
-            colCategory.Name = "colCategory";
-            colCategory.ReadOnly = true;
+            colDate.HeaderText = "Data";
+            colDate.Name = "colDate";
+            colDate.ReadOnly = true;
             // 
             // colName
             // 
@@ -336,11 +327,23 @@
             colName.Name = "colName";
             colName.ReadOnly = true;
             // 
-            // colDate
+            // colCategory
             // 
-            colDate.HeaderText = "Data";
-            colDate.Name = "colDate";
-            colDate.ReadOnly = true;
+            colCategory.HeaderText = "Categoria";
+            colCategory.Name = "colCategory";
+            colCategory.ReadOnly = true;
+            // 
+            // colType
+            // 
+            colType.HeaderText = "Tipo";
+            colType.Name = "colType";
+            colType.ReadOnly = true;
+            // 
+            // colValue
+            // 
+            colValue.HeaderText = "Valor";
+            colValue.Name = "colValue";
+            colValue.ReadOnly = true;
             // 
             // Transactions
             // 

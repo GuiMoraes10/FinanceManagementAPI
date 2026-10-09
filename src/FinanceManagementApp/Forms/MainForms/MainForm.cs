@@ -28,11 +28,7 @@ namespace FinanceManagementApp
         private static extern bool ReleaseCapture();
 
         [DllImport("user32.dll")]
-        private static extern int SendMessage(
-            IntPtr hWnd,
-            int Msg,
-            int wParam,
-            int lParam);
+        private static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
 
         private const int WM_NCLBUTTONDOWN = 0xA1;
         private const int HTCAPTION = 0x2;
@@ -89,42 +85,42 @@ namespace FinanceManagementApp
 
         private void DashboardBtn_Click(object sender, EventArgs e)
         {
-            OpenFormInPanel(new Dashboard(user.Id));
+            OpenFormInPanel(new DashboardForm(user.Id));
             SetDefaultButtonsCollor();
             DashboardBtn.BackColor = Color.FromArgb(60, 60, 60);
         }
 
         private void TransactionsBtn_Click(object sender, EventArgs e)
         {
-            OpenFormInPanel(new Transactions());
+            OpenFormInPanel(new TransactionsForm());
             SetDefaultButtonsCollor();
             TransactionsBtn.BackColor = Color.FromArgb(60, 60, 60);
         }
 
         private void ScheduledTransactionsBtn_Click(object sender, EventArgs e)
         {
-            OpenFormInPanel(new ScheduledTransactions());
+            OpenFormInPanel(new ScheduledTransactionsForm());
             SetDefaultButtonsCollor();
             ScheduledTransactionsBtn.BackColor = Color.FromArgb(60, 60, 60);
         }
 
         private void InvestmentsBtn_Click(object sender, EventArgs e)
         {
-            OpenFormInPanel(new Investments());
+            OpenFormInPanel(new InvestmentsForm());
             SetDefaultButtonsCollor();
             InvestmentsBtn.BackColor = Color.FromArgb(60, 60, 60);
         }
 
         private void ProjectionsBtn_Click(object sender, EventArgs e)
         {
-            OpenFormInPanel(new FinancialProjection());
+            OpenFormInPanel(new FinancialProjectionForm());
             SetDefaultButtonsCollor();
             ProjectionsBtn.BackColor = Color.FromArgb(60, 60, 60);
         }
 
         private void SettingsBtn_Click(object sender, EventArgs e)
         {
-            OpenFormInPanel(new Settings());
+            OpenFormInPanel(new SettingsForm());
             SetDefaultButtonsCollor();
             SettingsBtn.BackColor = Color.FromArgb(60, 60, 60);
         }

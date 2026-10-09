@@ -19,11 +19,7 @@ namespace FinanceManagementApp.Forms
         private static extern bool ReleaseCapture();
 
         [DllImport("user32.dll")]
-        private static extern int SendMessage(
-            IntPtr hWnd,
-            int Msg,
-            int wParam,
-            int lParam);
+        private static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
 
         private const int WM_NCLBUTTONDOWN = 0xA1;
         private const int HTCAPTION = 0x2;
@@ -72,7 +68,7 @@ namespace FinanceManagementApp.Forms
 
         private void RegisterBtn_Click(object sender, EventArgs e)
         {
-            RegisterPopup registerPopup = new();
+            UserRegisterPopup registerPopup = new();
             registerPopup.Show();
         }
 

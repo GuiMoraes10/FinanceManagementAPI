@@ -3,9 +3,9 @@ using System.Runtime.InteropServices;
 
 namespace FinanceManagementApp.Forms.PopUps
 {
-    public partial class RegisterPopup : Form
+    public partial class UserRegisterPopup : Form
     {
-        public RegisterPopup()
+        public UserRegisterPopup()
         {
             InitializeComponent();
         }
@@ -16,12 +16,7 @@ namespace FinanceManagementApp.Forms.PopUps
         private static extern bool ReleaseCapture();
 
         [DllImport("user32.dll")]
-        private static extern int SendMessage(
-            IntPtr hWnd,
-            int Msg,
-            int wParam,
-            int lParam);
-
+        private static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
         private const int WM_NCLBUTTONDOWN = 0xA1;
         private const int HTCAPTION = 0x2;
 
