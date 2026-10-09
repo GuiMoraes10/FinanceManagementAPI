@@ -83,6 +83,7 @@
             EditBalancePb.SizeMode = PictureBoxSizeMode.Zoom;
             EditBalancePb.TabIndex = 4;
             EditBalancePb.TabStop = false;
+            EditBalancePb.Click += EditBalancePb_Click;
             // 
             // BalanceValueLabel
             // 

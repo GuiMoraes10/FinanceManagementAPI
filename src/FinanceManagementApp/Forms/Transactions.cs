@@ -17,6 +17,9 @@ namespace FinanceManagementApp.Forms
         {
             InitializeComponent();
         }
+
+
+
         
     }
 }

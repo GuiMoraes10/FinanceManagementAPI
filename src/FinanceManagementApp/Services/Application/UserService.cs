@@ -19,6 +19,11 @@ namespace FinanceManagementApp.Services.Application
             return null;
         }
 
+        public async Task<bool> UpdateBalance(string userId, string balance)
+        {
+            return await apiService.UpdateUserBalance(userId, balance);
+        }
+
         public async Task<bool> RegisterUser(string name, string userName, string password)
         {
             return await apiService.RegisterUser(name, userName, password);

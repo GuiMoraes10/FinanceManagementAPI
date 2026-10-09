@@ -21,5 +21,15 @@ namespace FinanceManagementApp.Services.Auxiliar
             }
             return true;
         }
+
+        public static bool BalanceValueIsValid(string input)
+        {
+            if (decimal.TryParse(input, out var balance))
+            {
+                if (balance >= 0)
+                    return true;
+            }
+            return false;
+        }
     }
 }

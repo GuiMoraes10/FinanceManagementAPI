@@ -1,5 +1,6 @@
 ﻿using FinanceManagementApp.Controllers;
 using FinanceManagementApp.DTOs.Dashboard;
+using FinanceManagementApp.Entities;
 using FinanceManagementApp.Forms.PopUps;
 
 namespace FinanceManagementApp.Forms
@@ -20,21 +21,28 @@ namespace FinanceManagementApp.Forms
 
         private async Task UpdateDashboard()
         {
-            DashboardDto? dto = await controller.GetDashboardData(userId);
-
-            if (dto is null)
+            try
             {
-                MessagePopup.Show("Erro", "Erro ao buscar dados de usuário");
-                return;
-            }
+                DashboardDto? dto = await controller.GetDashboardData(userId);
 
-            BalanceValueLabel.Text = $"R$ {dto.Balance:F2}";
-            IncomingsValueLabel.Text = $"R$ {dto.Incomes:F2}";
-            ExpensesValueLabel.Text = $"R$ {dto.Expenses:F2}";
-            BalanceProjectionValueLabel.Text = $"R$ {dto.ProjectedBalance:F2}";
-            InvestmentsValueLabel.Text = $"R$ {dto.Investments:F2}";
-            LastTransactionsRtb.Text = FormatLastTransactionsText(dto.LastTransactions);
-            BiggestScheduledRtb.Text = FormatBiggestScheduledTransactionsText(dto.BiggestScheduledTransactions);
+                if (dto is null)
+                {
+                    MessagePopup.Show("Erro", "Erro ao buscar dados de usuário");
+                    return;
+                }
+
+                BalanceValueLabel.Text = $"R$ {dto.Balance:F2}";
+                IncomingsValueLabel.Text = $"R$ {dto.Incomes:F2}";
+                ExpensesValueLabel.Text = $"R$ {dto.Expenses:F2}";
+                BalanceProjectionValueLabel.Text = $"R$ {dto.ProjectedBalance:F2}";
+                InvestmentsValueLabel.Text = $"R$ {dto.Investments:F2}";
+                LastTransactionsRtb.Text = FormatLastTransactionsText(dto.LastTransactions);
+                BiggestScheduledRtb.Text = FormatBiggestScheduledTransactionsText(dto.BiggestScheduledTransactions);
+            }
+            catch (Exception ex)
+            {
+                MessagePopup.Show("Erro", ex.Message);
+            }
         }
 
         private string FormatLastTransactionsText(List<Entities.Transaction> transactions)
@@ -85,6 +93,24 @@ namespace FinanceManagementApp.Forms
             }
 
             return formatedText;
+        }
+
+        private async void EditBalancePb_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                User user = await controller.GetUser(userId);
+
+                ChangeBalancePopup popup = new(user);
+
+                popup.ShowDialog();
+
+                await UpdateDashboard();
+            }
+            catch (Exception ex)
+            {
+                MessagePopup.Show("Erro", ex.Message);
+            }
         }
     }
 }

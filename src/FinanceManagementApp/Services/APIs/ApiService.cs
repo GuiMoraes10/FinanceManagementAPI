@@ -83,5 +83,10 @@ namespace FinanceManagementApp.Services.APIs
 
             return JsonConvert.DeserializeObject<List<Transaction>>(result);
         }
+
+        public async Task<bool> UpdateUserBalance(string userId, string balance)
+        {
+            return await httpService.AzureRequestPatch(Address, "/user/" + userId + "/balance", balance);
+        }
     }
 }
